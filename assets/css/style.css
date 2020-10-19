@@ -11,6 +11,26 @@
 .bg-nav-color {
     background: #fafafa;
 }
+
+.section-heading {
+    color: #113822;
+    font-family: "Lato",sans-serif;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+
+.block-divider {
+    background-color: #113822;
+    width: 75px;
+    height: 5px;
+    border: 0;
+    margin:auto auto;
+    padding:0 30px;
+
+}
 /*--------Navbar-----*/
 
 .navbar-brand {
@@ -124,6 +144,26 @@
 
 .btn.btn-lg:hover:{
     color: #fbd608;
+}
+
+/*----About----*/
+
+.about-container {
+    background-color: #9db2a0;
+}
+
+.about-text {
+    color: #113822;
+    font-size:1.2rem;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+
+}
+
+.section-heading i {
+    padding: 10px;
 }
 
 
