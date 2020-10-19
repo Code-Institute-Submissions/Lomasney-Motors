@@ -59,6 +59,70 @@
 
 }
 
+/*-----Jumbotron & Image --*/
+
+.callout-container {
+    height: 100vh;
+    background: url('../images/car-image.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    color: #f6fbf8;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.25rem;
+    margin-bottom: .1rem;
+}
+
+.jumbotron-header em {
+    color: goldenrod;
+}
+
+.jumbotron .lead {
+    color: #f6fbf8;
+    font-family: "Montserrat",sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 3rem;
+}
+
+.btn-lg {
+    padding: .6rem 2rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+}
+.btn-warning {
+    color: #204c31;
+    font-weight: bold;
+    background-color: goldenrod;
+}
+
+
 /*------Footer----*/
 
 footer {
