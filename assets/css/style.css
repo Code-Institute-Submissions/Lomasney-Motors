@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:100,200,300,400,500,600,700,800|Montserrat:100,200,300,400,500,600,700,800');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:100,200,300,400,500,600,700,800,|Raleway:100,200,300,400,500,600,700,800');
 
 * {
     margin: 0;
@@ -7,11 +7,15 @@
 }
 
 body {
-    font-family: "Monserrat", sans-serif;
+    font-family: "Raleway", sans-serif;
     text-align: justify;
 }
 .space{
     padding: 70px 0;
+}
+
+h2 {
+    font-size: 1.5rem;
 }
 
 
@@ -23,26 +27,36 @@ body {
 
 .section-heading {
     color: #113822;
-    font-family: "Lato",sans-serif;
-    font-weight: bolder;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 800;
     letter-spacing: 2px;
-    font-size: 2rem;
-	margin: 50px 0px;
+	margin: 20px 0px;
 	padding: 5px 2px;
 	text-align: center;
+    
 	
     
 }
 
 .block-divider {
-    background-color: #113822;
-    width: 75px;
+    background-color: #2b6247;
+    width: 70%;
     height: 5px;
     border: 0;
     margin:auto auto;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
 
 }
-/*--------Navbar-----*/dow)
+
+.block-divider--white {
+   background-color: #f6fbf8;
+    width: 70%;
+    height: 5px;
+    border: 0;
+    margin:auto auto;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2); 
+}
+/*--------Navbar-----*/
 
 .navbar-brand {
     height: 60px;
@@ -50,7 +64,7 @@ body {
 
 .navbar {
     font-size: 1.3rem;
-    font-family: "Lato",sans-serif;
+    font-family: "Montserrat",sans-serif;
     font-weight: 900;
     box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
     z-index: 1;
@@ -58,7 +72,7 @@ body {
 
 #navbarLogo {
     color: #113822;
-    font-family: "Lato",sans-serif;
+    font-family: "Montserrat",sans-serif;
     font-size: 1.4rem;
     font-weight:800;
     padding-top:10px;
@@ -83,6 +97,11 @@ body {
     color: #113822;
 
 }
+.navbar-toggler{
+    padding: 0;
+    border: 0;
+    font-size: 1rem;
+}
 
 .navbar-toggler.navbar-toggler-icon {
     background-color: #113822;
@@ -94,11 +113,13 @@ body {
 
 .callout-container {
     height: 100vh;
+    width: 100%;
     background: url('../images/car-image.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    
 
     display: flex;
     align-items: center;
@@ -115,6 +136,7 @@ body {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     background-size: cover;
+    
 }
 
 .jumbotron {
@@ -123,7 +145,7 @@ body {
 
 .jumbotron h1 {
     color: #f6fbf8;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 2.25rem;
     margin-bottom: .1rem;
 }
@@ -134,9 +156,9 @@ body {
 
 .jumbotron .lead {
     color: #f6fbf8;
-    font-family: "Montserrat",sans-serif;
+    font-family: "Raleway",sans-serif;
     font-size: 1.5rem;
-    font-weight: bold;
+    font-weight: 800;
     margin-top: 0;
     margin-bottom: 3rem;
 }
@@ -147,8 +169,8 @@ body {
     border-radius: .3rem;
 }
 .btn-warning {
-    color: #113822;
-    font-weight: bold;
+    color: #2b6247;
+    font-weight: 700;
     font-size: 1.25rem;
     background-color: goldenrod;
 }
@@ -160,65 +182,113 @@ body {
 /*----About----*/
 
 .about-container {
-    background-color: rgba(157, 178, 160, 0.8);
-     -webkit-box-shadow: inset 0 0 10px #113822;;
-	box-shadow: inset 0 0 10px #113822;
-    border-radius: 8px;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
+    padding: 30px;
+    background: #2b6247;
+}
+
+.about-image {
+    object-fit: contain;
+    align-content: center;
+    display: flex;
+    width: 100%;
+    height: 40vw;
+    padding: 5px;
+
+}
+
+.about-heading{
+    color: #f6fbf8;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-align: center;
+    object-fit: contain;
+    margin-top: 20px;
 }
 
 .about-text {
-    color: #113822;
-    font-family: "Montserrat",sans-serif;
-    font-size:1.4rem;
+    color: #f6fbf8;
+    font-family: "Raleway",sans-serif;
+    font-size:1.1rem;
+    font-weight: 600;
+    align-content: center;
     text-align: center;
-    margin-top: 10px;
-    padding: 10px 10px;
-    margin-bottom: 10px;
+    padding: 0 30px;
+    line-height: 2.5;
+    display: flex;
 
 }
-
-.section-heading i {
-    padding: 10px;
+.space-container {
+    object-fit: contain;
+    width: 80%;
+    height:45vw;
+    display: flex;
+    position: relative;
 }
 
 /*Team Section*/
 .team-container {
    align-content: center;
+   box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
+   padding: 30px;
+   position: relative;
     
+}
+
+.team-heading {
+    color: #2b6247;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 800;
+    letter-spacing: 2px;
+	margin: 10px 0;
+	padding: 5px 2px;
+	text-align: center;
 }
 
 .card {
-  display:flex;
-  flex: 1 1 auto;
-  background:  rgba(157, 178, 160, 0.8);
-  margin: 15px 0px;
-	padding: 30px;
-	border-radius: 8px;
-        -webkit-box-shadow: inset 0 0 10px #113822;;
-	box-shadow: inset 0 0 10px #113822;
+    display:flex;
+    flex: 1 1 auto;
+    margin: 15px 0px;
+    border: none;
+    background: transparent;
+    
 }
  
-}
-
-.card-img-top  {
-    
+.team-image {
     object-fit: cover;
+    height: auto;
+    width: 100%;
 }
 
 .card-title {
-    font-family: "Lato",sans-serif;
-    font-weight: bolder;
+    font-family: "Montserrat",sans-serif;
+    color: #2b6247;
+    font-weight: 700;
     text-align: center;
-	margin-bottom: 1.2rem;
+	margin-bottom: 1rem;
 	font-size: 1.4rem;
+    text-decoration-line: underline;
   
 }
 .card-text {
-    font-family: "Montserrat",sans-serif;
-    color: #113822;
-    font-size: 1.2rem;
+    font-family: "Raleway",sans-serif;
+    color: #2b6247;
+    font-size: 1.1rem;
+    font-weight: 500;
     align-content: center;
+    text-align: center;
+    line-height: 2.5;
 }
+
+#teamImage {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;align
+    
+}
+
 /*---Service Section*/
 
 .service-container {
@@ -232,10 +302,10 @@ body {
 }
 
 .service-item {
-    font-family: "Montserrat",sans-serif;
+    font-family: "Raleway",sans-serif;
     
     font-size: 1.5rem;
-    font-weight: bolder;
+    font-weight: 700;
     color: #113822;
     text-align: justify;
     margin-right: 10px;
@@ -267,7 +337,7 @@ footer {
 }
 
 .general-sub {
-    font-family: "Lato",sans-serif;
+    font-family: "Montserrat",sans-serif;
     font-weight: 800;
     font-size: 1rem;
     color: #113822;
