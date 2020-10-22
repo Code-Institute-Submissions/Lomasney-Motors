@@ -177,8 +177,8 @@ h2 {
 }
  
 .about-us-box-text {
-    padding-right: 30px;
-    text-align: left;
+    padding: 20px;
+    text-align: center;
 }
  
 .about-us-box-text h3 {
@@ -186,7 +186,7 @@ h2 {
      color: #113822;
     font-weight: 800;
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .about-us-box-text p {
@@ -196,8 +196,8 @@ h2 {
     font-weight: 600;
     margin-top: 30px;
     margin-bottom: 20px;
-    padding-right: 30px;
-    text-align: left;
+    padding-right: 20px;
+    text-align: center;
 
 }
   
@@ -206,7 +206,6 @@ h2 {
 }
 .about-container {
     box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
-    padding: 30px;
     background: #e8f2e6;
 }
 
@@ -254,7 +253,7 @@ h2 {
 .card {
     display:flex;
     flex: 1 1 auto;
-    padding: 5px;
+    padding: 10px;
     border:none;
     border-radius: 10px;
     
@@ -300,9 +299,9 @@ h2 {
 /*---Service Section*/
 
 .service-container {
-  height: 100vh;
   background: #e8f2e6;
-  padding: 30px;
+  box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
+  padding: 40px;
   position: relative;
   text-align: center;
   color: #2b6247;
@@ -312,7 +311,7 @@ h2 {
     clear: both;
     padding: 10px;
     font-family: "Raleway",sans-serif;
-    font-size: 5rem;
+    font-size: 3rem;
     font-weight: 800;
     color: #f6fbf8;
     text-align: center;
@@ -325,8 +324,7 @@ h2 {
   left: 50%;
   transform: translate(-50%, -50%);
   background:rgba(39, 70, 38, 0.9);
-  margin:30px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 800;
   border-radius: 10px;
   white-space: nowrap;
