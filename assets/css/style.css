@@ -5,13 +5,16 @@
     padding:0;
     border: 0;
 }
+:root{
+    --light:#e8f2e6;
+}
 
 body {
     font-family: "Raleway", sans-serif;
     text-align: justify;
 }
 .space{
-    padding: 70px 0;
+    padding: 50px 0;
 }
 
 h2 {
@@ -22,7 +25,7 @@ h2 {
 /*-----Colors-----*/
 
 .bg-nav-color {
-    background: #fafafa;
+    background: #e8f2e6;
 }
 
 .section-heading {
@@ -48,14 +51,15 @@ h2 {
 
 }
 
-.block-divider--white {
-   background-color: #f6fbf8;
+.block-divider--grey {
+   background-color: #113822;
     width: 70%;
     height: 5px;
     border: 0;
     margin:auto auto;
     box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2); 
 }
+
 /*--------Navbar-----*/
 
 .navbar-brand {
@@ -178,45 +182,53 @@ h2 {
 .btn.btn-lg:hover:{
     color: #fbd608;
 }
+ 
+/****About******/
+.about-us-box {
+    margin-top: 50px;
+}
+ 
+.about-us-box-text {
+    padding-right: 30px;
+    text-align: left;
+}
+ 
+.about-us-box-text h3 {
+    font-family: "Montserrat",sans-serif;
+     color: #113822;
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
 
-/*----About----*/
+.about-us-box-text p {
+    color: #2b6247;
+    font-family: "Raleway",sans-serif;
+    font-size:1.1rem;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-right: 30px;
+    text-align: left;
 
+}
+  
+.about-us-box-img img {
+    border-radius: 8px;
+}
 .about-container {
     box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
     padding: 30px;
-    background: #2b6247;
+    background: #e8f2e6;
 }
 
 .about-image {
     object-fit: contain;
     align-content: center;
     display: flex;
-    width: 100%;
+    width: 80%;
     height: 40vw;
     padding: 5px;
-
-}
-
-.about-heading{
-    color: #f6fbf8;
-    font-family: "Montserrat",sans-serif;
-    font-weight: 800;
-    letter-spacing: 2px;
-    text-align: center;
-    object-fit: contain;
-    margin-top: 20px;
-}
-
-.about-text {
-    color: #f6fbf8;
-    font-family: "Raleway",sans-serif;
-    font-size:1.1rem;
-    font-weight: 600;
-    align-content: center;
-    text-align: center;
-    padding: 0 30px;
-    line-height: 2.5;
-    display: flex;
 
 }
 .space-container {
@@ -233,59 +245,67 @@ h2 {
    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
    padding: 30px;
    position: relative;
+
     
 }
 
 .team-heading {
-    color: #2b6247;
     font-family: "Montserrat",sans-serif;
+    color: #113822;
     font-weight: 800;
-    letter-spacing: 2px;
-	margin: 10px 0;
-	padding: 5px 2px;
-	text-align: center;
+    text-align: center;
+    padding-top: 30px;
+    margin:10px;
+}
+
+.team-heading i {
+    font-size: 3.5rem;
+    padding-left: 10px;
 }
 
 .card {
     display:flex;
     flex: 1 1 auto;
-    margin: 15px 0px;
-    border: none;
-    background: transparent;
+    padding: 5px;
+    border:none;
+    border-radius: 10px;
+    
     
 }
  
 .team-image {
     object-fit: cover;
     height: auto;
-    width: 100%;
+    width: 70%;
+    border-radius: 50%;
 }
 
 .card-title {
     font-family: "Montserrat",sans-serif;
-    color: #2b6247;
-    font-weight: 700;
+     color: #113822;
+    font-weight: 800;
     text-align: center;
-	margin-bottom: 1rem;
-	font-size: 1.4rem;
-    text-decoration-line: underline;
+    margin-top: 0;
+    margin-bottom: 10px;
   
 }
 .card-text {
     font-family: "Raleway",sans-serif;
     color: #2b6247;
     font-size: 1.1rem;
-    font-weight: 500;
+    font-weight: 600;
     align-content: center;
-    text-align: center;
-    line-height: 2.5;
+    text-align:center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
 }
 
 #teamImage {
     display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;align
+  width: 50%;
     
 }
 
@@ -321,7 +341,7 @@ h2 {
 /*------Footer----*/
 
 footer {
-    background-color: #9db2a0;
+    background-color: #e8f2e6;
     color: #113822;
     min-height:50px;
     bottom: 0;
