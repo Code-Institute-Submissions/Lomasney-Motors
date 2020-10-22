@@ -28,18 +28,6 @@ h2 {
     background: #e8f2e6;
 }
 
-.section-heading {
-    color: #113822;
-    font-family: "Montserrat",sans-serif;
-    font-weight: 800;
-    letter-spacing: 2px;
-	margin: 20px 0px;
-	padding: 5px 2px;
-	text-align: center;
-    
-	
-    
-}
 
 .block-divider {
     background-color: #2b6247;
@@ -313,31 +301,53 @@ h2 {
 
 .service-container {
   height: 100vh;
+  background: #e8f2e6;
+  padding: 30px;
+  position: relative;
+  text-align: center;
+  color: #2b6247;
+}
 
+.service-item {
+    clear: both;
+    padding: 10px;
+    font-family: "Raleway",sans-serif;
+    font-size: 5rem;
+    font-weight: 800;
+    color: #f6fbf8;
+    text-align: center;
+    
+}
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background:rgba(39, 70, 38, 0.9);
+  margin:30px;
+  font-size: 1.5rem;
+  font-weight: 800;
+  border-radius: 10px;
+  white-space: nowrap;
 
 }
 
 .service-heading{
-
-}
-
-.service-item {
-    font-family: "Raleway",sans-serif;
-    
-    font-size: 1.5rem;
-    font-weight: 700;
     color: #113822;
-    text-align: justify;
-    margin-right: 10px;
-
-
+    font-family: "Montserrat",sans-serif;
+    font-weight: 800;
+	margin: 30px 0px;
+	padding: 5px 5px;
+	text-align: center;  
 }
 
-.service-item i {
-    padding: 2rem;
-    font-size: 2.5rem;
-
+.service-heading i {
+    font-size: 3rem;
+    padding-left: 10px;
 }
+
+
 /*------Footer----*/
 
 footer {
