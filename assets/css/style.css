@@ -21,7 +21,6 @@ body {
 }
 
 
-
 /*-----Colors-----*/
 
 .bg-nav-color {
@@ -364,23 +363,28 @@ body {
 
 /******Contact*****/
 
-.contact-container{
+/*.contact-container{
     width: 100%;
     height: 40vw;
     padding: 30px;
-}
-.contact-section{
+}*/
+.contact-container{
     height: auto;
     width: 100%;
-    background: url(../images/contact.jpg) no-repeat center center fixed;
+    background: url(../images/contact-bg.jpg) no-repeat center center fixed;
+    opacity: .8;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     position: relative;
     
+}
+
+.contact-heading{
+    height:10vw;
+    width: 100%;
 }
 
 .contact-heading{
@@ -400,22 +404,30 @@ body {
 .form-container {
     width: 100%;
     height: 70vw;
-    margin-top: 20px;
     padding: 50px;
+    background: rgba(190, 243, 189, 0.6);
     
 }
 .form-group {
     font-family: "Raleway",sans-serif;
-    font-weight: 600;
+    font-weight: 800;
     color: #113822;
 }
 
 form {
     padding-left: 30px;
 }
+
 .btn-success {
     color: #e8f2e6;
     background-color: #2b6247;
+    border-color: #e8f2e6;
+    margin-bottom: 30px;
+}
+
+.btn-success:hover {
+    color: #e8f2e6;
+    background-color: #113822;
     border-color: #e8f2e6;
 }
 
