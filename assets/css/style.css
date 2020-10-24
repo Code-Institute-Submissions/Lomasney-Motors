@@ -367,7 +367,6 @@ body {
     height: auto;
     width: 100%;
     background: url(../images/contact-bg.jpg) no-repeat center center fixed;
-    opacity: .8;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -378,7 +377,7 @@ body {
 }
 
 .contact-heading{
-    height:10vw;
+    height:auto;
     width: 100%;
 }
 
@@ -400,17 +399,25 @@ body {
     width: 100%;
     height: 70vw;
     padding: 50px;
-    background: rgba(190, 243, 189, 0.6);
+    background: rgba(190, 243, 189, 0.4);
     
 }
 .form-group {
     font-family: "Raleway",sans-serif;
     font-weight: 800;
     color: #113822;
+    margin-bottom: 1.5rem;
+    
 }
 
 form {
     padding-left: 30px;
+    margin-top: 40px;
+    line-height: 1.5;
+}
+
+#message {
+    height: 10vw;
 }
 
 .btn-success {
@@ -430,6 +437,7 @@ form {
     color: #113822;
     text-align: center;
     padding-left: 30px;
+    margin-top: 40px;
 }
 .company-info h3 {
     font-family: "Montserrat",sans-serif;
@@ -438,7 +446,7 @@ form {
 .company-info p {
     font-family: "Raleway",sans-serif;
     font-size:1.1rem;
-    font-weight: 600;
+    font-weight: 700;
     padding-bottom: 5px;
     padding-top: 5px;
 
