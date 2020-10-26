@@ -218,9 +218,9 @@ h4 {
 .about-container {
     -webkit-box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
             box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
-    background:-webkit-gradient(linear,left top, left bottom,from(rgba(3, 46, 23, 0.75)),to(rgba(232, 242, 230, 0.849)));
-    background:-o-linear-gradient(rgba(3, 46, 23, 0.75),rgba(232, 242, 230, 0.849));
-    background:linear-gradient(rgba(3, 46, 23, 0.75),rgba(232, 242, 230, 0.849));
+    background:-webkit-gradient(linear,left top, left bottom,from((rgba(3, 55, 23, 0.6)),to rgba(232, 242, 230, 0.849)));
+    background:-o-linear-gradient(rgba(3, 55, 23, 0.6),rgba(232, 242, 230, 0.849));
+    background: linear-gradient(rgba(3, 55, 23, 0.6),rgba(232, 242, 230, 0.849));
 }
 
 .about-image {
@@ -282,9 +282,9 @@ h4 {
     padding: 10px;
     border:none;
     border-radius: 10px;
-    background:-webkit-gradient(linear,left top, left bottom,from(rgba(3, 46, 23, 0.75)),to(rgba(232, 242, 230, 0.849)));
-    background:-o-linear-gradient(rgba(3, 46, 23, 0.75),rgba(232, 242, 230, 0.849));
-    background:linear-gradient(rgba(3, 46, 23, 0.75),rgba(232, 242, 230, 0.849));
+    background:-webkit-gradient(linear,left top, left bottom,from((rgba(3, 55, 23, 0.6)),to rgba(232, 242, 230, 0.849)));
+    background:-o-linear-gradient(rgba(3, 55, 23, 0.6),rgba(232, 242, 230, 0.849));
+    background: linear-gradient(rgba(3, 55, 23, 0.6),rgba(232, 242, 230, 0.849));
     
 }
  
@@ -329,9 +329,9 @@ h4 {
 /*---Service Section*/
 
 .service-container {
-  background:-webkit-gradient(linear,left top, left bottom,from(rgba(232, 242, 230, 0.849)),to(rgba(3, 46, 23, 0.75)));
-  background:-o-linear-gradient(rgba(232, 242, 230, 0.849),rgba(3, 46, 23, 0.75));
-  background:linear-gradient(rgba(232, 242, 230, 0.849),rgba(3, 46, 23, 0.75));
+  background:-webkit-gradient(linear,left top, left bottom,from(rgba(232, 242, 230, 0.849)),to(rgba(3, 55, 23, 0.6)));
+  background:-o-linear-gradient(rgba(232, 242, 230, 0.849),rgba(3, 55, 23, 0.6));
+  background: linear-gradient(rgba(232, 242, 230, 0.849),rgba(3, 55, 23, 0.6));
   -webkit-box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
           box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
   padding: 40px;
@@ -385,9 +385,9 @@ h4 {
 .testimonial-container {
     width: 100%;
     height: auto;
-  background:-webkit-gradient(linear,left top, left bottom,from(rgba(232, 242, 230, 0.849)),to(rgba(3, 46, 23, 0.75)));
-  background:-o-linear-gradient(rgba(232, 242, 230, 0.849),rgba(3, 46, 23, 0.75));
-  background:linear-gradient(rgba(232, 242, 230, 0.849),rgba(3, 46, 23, 0.75));
+  background:-webkit-gradient(linear,left top, left bottom,from(rgba(232, 242, 230, 0.849)),to(rgba(3, 55, 23, 0.6)));
+  background:-o-linear-gradient(rgba(232, 242, 230, 0.849),rgba(3, 55, 23, 0.6));
+  background: linear-gradient(rgba(232, 242, 230, 0.849),rgba(3, 55, 23, 0.6));
   -webkit-box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
           box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
   color: #113822;
@@ -462,7 +462,7 @@ h4 {
     width: 100%;
     height: 100%;
     padding: 50px;
-    background: rgba(190, 243, 189, 0.4);
+    background: rgba(218, 235, 218, 0.7);
     
 }
 .form-group {
