@@ -65,11 +65,11 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 ## Features
  - General (navbar, logo, footer, social links, directions link, opening hours)
- - Home Page ( list of service quality, request a quote call to action)
- - About Page (paprgraph about company, images, location)
- - Services (read more, services provided, prices, images)
- - Testimonials (reviews from customers, star rating, leave a review button)
- - Contact Us (contact form, map)
+ - Home Page ( hero image, request a quote call to action)
+ - About Section (paragraph about company, images, location)
+ - Services Section (Images, services provided)
+ - Testimonials Section (reviews from customers, star rating, leave a review button)
+ - Contact Us Section(contact form, opening hours, map)
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
 ### Existing Features
@@ -103,9 +103,13 @@ In addition, you may also use this section to discuss plans for additional featu
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
+- HTML
+- CSS
+- Bootstrap
+- Autoprefixer
+- tinyjpeg
 - [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
+    - The project uses **JQuery** to 
 
 ## Testing
 
@@ -140,13 +144,26 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 
 ## Credits
+- W3 Schools
+- Stackoverflow
+- Bootstrap
+- Baz Alrawi - Images
+- Cillian McCarthy - services content
+- Balsamiq wireframes
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text for the 'About Us', 'Meet the Team' and Services section were obtained from Dermot Lomasney, Cillian McCarthy, 
+the owner and employee at Lomasney Motors and some text was added by me from my knowledge of the business and the surrounding area of Midleton.
+The testimonials content was taken from the company Facebook review section and also reviews from Google.
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from Basil Alrawi, who I enlisted to take some quality photos for the website.
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- My inspiration for this project came from my Dad. He is the owner of Lomasney Motors since 1987 and the business has never had a website.
+  He has many regular customers, however as society has changed alot in the last 30 years, Midleton has now a much bigger population and the
+  surrounding area has grown exponentially. It is important today for any business to have an online presence as customers will now 
+  search online to find the service they are looking for. I have seen the business Lomasney Motors go from strength to strength during the 
+  recession and the covid 19 pandemic. Now more than ever I thought it would be a good idea to put my skills to some real \
+  life use and build a simple yet effective website that will allow the business to expand its customer base and showcase what the services they offer.
