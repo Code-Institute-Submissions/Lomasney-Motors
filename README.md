@@ -130,6 +130,11 @@ In addition, you should mention in this section how your project looks and works
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
+## Issues
+- Navbar background color
+- Navbar toggle menu collapsing
+- Carousel slides overlapping
+- Contact Image not fully covering section
 
 ## Deployment
 

@@ -48,35 +48,6 @@ h4 {
     font-weight: 700;
     line-height: 1.2;
 }
-}
-
-/*-----Colors-----*/
-
-.bg-nav-color {
-    background: #e8f2e6;
-}
-
-
-.block-divider {
-    background-color: #2b6247;
-    width: 70%;
-    height: 5px;
-    border: 0;
-    margin:auto auto;
-    -webkit-box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
-            box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
-
-}
-
-.block-divider--grey {
-   background-color: #113822;
-    width: 70%;
-    height: 5px;
-    border: 0;
-    margin:auto auto;
-    -webkit-box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
-            box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2); 
-}
 
 /*--------Navbar-----*/
 
@@ -85,7 +56,8 @@ h4 {
 }
 
 .navbar {
-    font-size: 1.3rem;
+    background-color:#e8f2e6;
+    font-size: 1.1rem;
     font-family: "Montserrat",sans-serif;
     font-weight: 900;
     -webkit-box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
@@ -457,6 +429,9 @@ h4 {
     width: 100%;
     background: url(../images/contact-bg.jpg) no-repeat center center fixed;
     background-size: cover;
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -485,7 +460,7 @@ h4 {
 
 .form-container {
     width: 100%;
-    height: 70vw;
+    height: 100%;
     padding: 50px;
     background: rgba(190, 243, 189, 0.4);
     
@@ -555,9 +530,7 @@ footer {
     -webkit-box-shadow: 0 -.5rem .5em rgba(0, 0, 0, .2);
             box-shadow: 0 -.5rem .5em rgba(0, 0, 0, .2);
     z-index: 1;
-    position: fixed;
-    
-
+    position: sticky;
 }
 
 .uppercase {
