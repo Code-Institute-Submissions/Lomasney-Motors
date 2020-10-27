@@ -212,7 +212,11 @@ h4 {
 }
   
 .about-us-box-img img {
+    width: 100%;
+    height: auto;
     border-radius: 8px;
+    padding: 20px;
+    float: left;
 }
 
 .about-container {
