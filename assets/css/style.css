@@ -213,7 +213,7 @@ h4 {
 .about-us-box-img img {
     width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 30px;
     padding: 20px;
     float: left;
 }
@@ -226,29 +226,7 @@ h4 {
     background: linear-gradient(rgba(3, 55, 23, 0.6),rgba(232, 242, 230, 0.849));
 }
 
-.about-image {
-    -o-object-fit: contain;
-       object-fit: contain;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 80%;
-    height: 40vw;
-    padding: 5px;
 
-}
-.space-container {
-    -o-object-fit: contain;
-       object-fit: contain;
-    width: 80%;
-    height:45vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    position: relative;
-}
 
 /*Team Section*/
 .team-container {
@@ -352,6 +330,10 @@ h4 {
     color: #f6fbf8;
     text-align: center;
     
+}
+
+.service-item img{
+    border-radius: 30px;
 }
 
 .centered{
