@@ -407,6 +407,23 @@ h4 {
     margin-bottom: 15px;
 }
 
+/*****Modal******/
+.btn.btn-rounded:hover:{
+    color: #fbd608;
+}
+
+ #save{
+    font-size: 1rem;
+}
+
+.modal-content {
+    color: #113822;
+    font-family: "Raleway",sans-serif;
+}
+
+.modal-body {
+    font-weight: bold;
+}
 /******Contact*****/
 
 .contact-container{

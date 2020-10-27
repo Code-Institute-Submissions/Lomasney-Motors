@@ -268,9 +268,70 @@
         </div>
         </div>
     </div>
-    <button class="btn btn-lg btn-warning" data-toggle="modal" data-target="#reviewModal">Leave a Review!</button> 
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Write a Review</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+          </div>
+          <div class="modal-body">
+          <div class="md-form mb-5">
+          <i class="fas fa-user prefix grey-text"></i>
+          <label data-error="wrong" data-success="right" for="form34">Your Name</label>
+          <input type="text" id="form34" class="form-control validate">
+        </div>
+
+        <label for="stars"><i class="fas fa-star"></i> Star Rating</label>
+        <div class="md-form mb-5">
+    
+            <label class="radio-inline">
+              <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+               1
+            </label>
+
+            <label class="radio-inline">
+              <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 
+              2
+            </label>
+           
+            <label class="radio-inline">
+              <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 
+              3 
+            </label>
+            
+            <label class="radio-inline">
+              <input type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+              4 
+            </label>
+        
+            <label class="radio-inline">
+              <input type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5"> 
+              5 
+            </label>
+            </div>
+            
+            <div class="md-form">
+                <i class="fas fa-pencil prefix grey-text"></i>
+                <label data-error="wrong" data-success="right" for="form8">Your Review</label>
+                    <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
+                </div>
+            </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" id="save" class="btn btn-warning" data-dismiss="modal">Save</button>
+          </div>
+        </div>
+      </div>
     </div>
-    </section>
+    
+        <div class="text-center">
+            <a href="" class="btn btn-default btn-rounded btn-warning mb-4" data-toggle="modal" data-target="#myModal">Leave a Review</a>
+        </div> 
+    </div>
+</section>
+<!--/modal-->
 
 <!--/testimonials-->
 
