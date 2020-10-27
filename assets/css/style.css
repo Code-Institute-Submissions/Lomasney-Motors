@@ -204,8 +204,6 @@ h4 {
     font-family: "Raleway",sans-serif;
     font-size:1.1rem;
     font-weight: 600;
-    margin-top: 30px;
-    margin-bottom: 20px;
     text-align: center;
 
 }
@@ -338,19 +336,16 @@ h4 {
 
 .centered{
   position: absolute;
-  top: 85%;
+  top: 75%;
   left: 50%;
-  width: 60%;
-  height: 10%;
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   background:rgba(29, 51, 28, 0.9);
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 800;
   border-radius: 10px;
   white-space: nowrap;
-
 }
 
 .service-heading{
@@ -366,6 +361,7 @@ h4 {
     font-size: 2rem;
     padding-left: 10px;
 }
+
 /******Testimonials***/
 .testimonial-container {
     width: 100%;
@@ -423,6 +419,10 @@ h4 {
 
 .modal-body {
     font-weight: bold;
+}
+
+.radio-inline{
+    padding: 5px;
 }
 /******Contact*****/
 
