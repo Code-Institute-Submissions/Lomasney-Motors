@@ -27,7 +27,6 @@ regularly and changes made to suit the needs and requirements of both the owner 
 * Ability to book a service online.
 * Offer rewards and promotions to loyal customers.
 
-
 ## UX
  
 This website is for customers, to provide up to date, relevant and easily available information about the business and the services it provides.
@@ -53,12 +52,18 @@ with minimal text and vivid images. These sections were identified as the key pi
 
 #### Colours
 The colour scheme chosen for this project was based around the existing logo colours used by the company.
+I used a mix of different shades of green, grey for the body and backgrounds. And I used a yellow colour 
+for the call to action buttons so they would be vibrant and stand out as intended to.
 
 #### Typography
-The fonts chosen for this project were Montserrat and Raleway.
+The fonts chosen for this project were Montserrat and Raleway. The Montserrat font was the closest font to the
+logo which the company already have in place so it was important to keep this element throughout the website.
+These fonts pair well together, are easy to read and give a professional look to the site.
 
 #### Images
-Most of the images were created solely for the purpose of this website. These were obtained from Bazar Productions with some minor images taken from unsplash.com and pexel.com
+Most of the images were created solely for the purpose of this website. These were obtained from Bazar Productions 
+with some minor generic images taken from unsplash.com and pexel.com to fill in gaps where images were required for
+the services section.
 
 ### User Stories
 
@@ -80,12 +85,7 @@ Most of the images were created solely for the purpose of this website. These we
 
 * As a potenial user I would like to be able to book in for a service online in advance to save time.
 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 ## Features
 The website was built as a one page scrolling website that includes 5 different sections of one page each
@@ -118,7 +118,7 @@ The About page is set up as a two column grid display with the left side display
 history and background of the business and a full width image of the owner and company signage to the right. I decided to use this image 
 as it represents what the company is about, a family run local garage.
 
-### Services Page
+#### Services Page
 The services page is a 3 column display of images with a text overlay decribing the services the company offer. There is an image to 
 represent each service with a total of 9 services and correpsonding images displayed. In mobile view this has been reduced to one column 
 with each service displayed as a block element, with one after the other.
