@@ -26,9 +26,6 @@ body {
     font-family: "Raleway", sans-serif;
     text-align: justify;
 }
-.row {
-    margin: 0;
-}
 .space{
     padding: 50px 0;
 }
@@ -479,10 +476,6 @@ form {
     padding-left: 30px;
     margin-top: 40px;
     line-height: 1.5;
-}
-
-#message {
-    height: 10vw;
 }
 
 .btn-success {

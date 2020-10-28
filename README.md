@@ -4,7 +4,7 @@ This is a fully responsive website I am developing for Lomasney Motors, a family
 The focus of this website is to provide customers with information about the business and to develop an online presence for the company. In 
 this current climate with the challenges facing all businesses with COVID-19, it is vital stay connected with customers and is the key to securing the future 
 of the business, it is important to develop a positive online presense to retain existing customers and also to attract new customers. The website includes
-the following sections: About (Who they are?), Services (What they do?), Testimonials and a contact section. This project will be on-going and will be updated 
+the following sections: About (Who they are?), Meet the Team, Services (What they do?), Testimonials and a Contact section. This project will be on-going and will be updated 
 regularly and changes made to suit the needs and requirements of both the owner and the users.
 
 #### The Business Objectives
@@ -99,17 +99,40 @@ The website was built as a one page scrolling website that includes 5 different 
  
 ### Existing Features
 
-- Navbar & footer
-- Home Page
-- About Page
-- Services Page
-- Testimonials Page
-- Contact Us Page 
+#### Navbar & footer
+ The Navbar and footer are both in a fixed position to make it easy for users to access the navigation elements of the
+ website and always have constant accessibility to social, direction and phone links. The navbar consists of logo text 
+ to the left and navigation links to the right, the navbar is responsive and it's menu collapses into a hamburger menu 
+ for both tablet and mobile devices.
+ The footer consists of opening hours and copyright information to the left and links to social media, telephone and 
+ direction information on the right.
 
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+#### Home Page
+ The Hompage was designed to be a visual display with minimal text, it includes a hero image, a brief description highlighting 
+ the main services the company provide which is jumbotron displayed over the hero image and a call to action button which provides
+ a link to the contact form once clicked. The idea of the homepage is to visually entice the user while not bombarding them with an 
+ overload of text to consume.
+
+#### About Page
+The About page is set up as a two column grid display with the left side displaying three small paragraphs of text detailing a brief 
+history and background of the business and a full width image of the owner and company signage to the right. I decided to use this image 
+as it represents what the company is about, a family run local garage.
+
+### Services Page
+The services page is a 3 column display of images with a text overlay decribing the services the company offer. There is an image to 
+represent each service with a total of 9 services and correpsonding images displayed. In mobile view this has been reduced to one column 
+with each service displayed as a block element, with one after the other.
+
+#### Testimonials Page
+The testimonials page was designed using a Bootstrap carousel slider which runs automatically showcasing customer reviews. In larger screen sizes
+a call to action button with the caption 'Leave a Review' has been added which when clicked opens a modal dialog box for users to write a review and submit it.
+
+#### Contact Us Page 
+The contact us section is a two column page that includes a contact form on the left hand column and to the right I have included the business address, opening hours
+and a basic map image showing the location of Lomasney Motors.
 
 ### Features Left to Implement
+- COVID 19 Information - how the company have adapted to the new Health & Safety Standards
 - Booking service system
 - Reward/offers for customers
 - GDPR Disclaimer
@@ -118,20 +141,21 @@ The website was built as a one page scrolling website that includes 5 different 
 - Cars for Sale Page
 - CAPTCHA feature on contact form
 - Customer database with service history
-- Another feature idea
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 ### Languages
-- HTML
-- CSS
+- HTML5
+- CSS3
 - JQuery - the project used this as a built in feature of Bootstrap, used for the modal feature for the testimonial section.
 
 ### Integretions
-- Bootstrap
+- Bootstrap4 
+  Used for the grid layout for the website
 - Font Awesome
+  Used to add icons to my footer and sections of the website
 - Google Fonts
+  Used to select the font styles used on the website for the section heading and body.
 
 ### Workspace
 - GitHub
@@ -139,8 +163,10 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - Git
 
 ### Other
-- Autoprefixer
-- tinyjpeg
+- Autoprefixer CSS
+  An online tool used to parse the CSS and add vendor prefixes where required.
+- Tinyjpeg
+  This was used to compress the images used on the website.
 
 ## Testing
 
