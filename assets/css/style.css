@@ -50,6 +50,10 @@ h4 {
     line-height: 1.2;
 }
 
+.col-md-6 {
+    padding: 5px;
+}
+
 /******Navbar*******/
 
 .navbar-brand a {
@@ -152,7 +156,7 @@ h4 {
 .jumbotron .lead {
     color: #f6fbf8;
     font-family: "Raleway",sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 800;
     margin-top: 0;
     margin-bottom: 3rem;
@@ -179,10 +183,11 @@ h4 {
 
 .about-us-box {
     margin-top: 20px;
+    padding: 5px;
 }
  
 .about-us-box-text {
-    padding: 30px;
+    padding: 10px;
     text-align: center;
 }
  
@@ -206,7 +211,7 @@ h4 {
     width: 100%;
     height: auto;
     border-radius: 15px;
-    padding: 20px;
+    padding: 0;
     float: left;
 }
 
@@ -256,8 +261,11 @@ h4 {
     border-radius: 10px;
     background:-webkit-gradient(linear,left top, left bottom,from((rgba(3, 55, 23, 0.6)),to rgba(232, 242, 230, 0.849)));
     background:-o-linear-gradient(rgba(3, 55, 23, 0.6),rgba(232, 242, 230, 0.849));
-    background: linear-gradient(rgba(3, 55, 23, 0.6),rgba(232, 242, 230, 0.849));
-    
+    background: linear-gradient(rgba(3, 55, 23, 0.6),rgba(232, 242, 230, 0.849));  
+}
+
+.card-deck .col-sm-12 {
+    padding: 0;
 }
  
 .team-image {
@@ -311,8 +319,7 @@ h4 {
 }
 
 .service-item {
-    clear: both;
-    padding: 10px;
+    padding: 5px;
     font-family: "Raleway",sans-serif;
     font-size: 3.5rem;
     font-weight: 800;
@@ -510,7 +517,7 @@ form {
 }
 
 .company-info img {
-    width:25vw;
+    width:90vw;
     height: auto;
 }
 
@@ -584,36 +591,46 @@ footer {
 
 #footer-details {
     padding:10px;
-    
+    text-align: center;
 }
 
 /****Media Queries****/
 
-@media (min-width: 576px)
-.card-deck .card {
-    -ms-flex: 1 0 0%;
-    flex: 1 0 0%;
-    margin-bottom: 0;
-}
 
-/*phones*/
-@media screen and (max-width: 768px) {
+/****Phones and tablets****/
 
-
-}
-
-/*phones and tablets*/
-@media screen and (max-width: 992px) {
-}
-
-/*desktops and XL screens*/
-@media screen and (min-width: 993px) {
-}
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) { 
+    
+    .company-info img {
+    width: 45vw;
+    height: auto;
 }
 
-/* Large devices (desktops, 992px and up) */
+ #footer-details {
+     padding 10px;
+ }
+
+ .footer-hours {
+     text-align: left;
+ }
+
+ .footer-icons {
+     text-align: right;
+ }
+}
+
+
+/****Large devices (desktops, 992px and up)****/
 @media (min-width: 992px) {
+    
+    .company-info img {
+    width:25vw;
+    height: auto;
+}
+.team-container {
+    padding: 0;
+    margin: 0;
+}
 }
