@@ -180,11 +180,11 @@ h4 {
  
 /****About******/
 .about-us-box {
-    margin-top: 50px;
+    margin-top: 20px;
 }
  
 .about-us-box-text {
-    padding: 50px;
+    padding: 30px;
     text-align: center;
 }
  
@@ -208,7 +208,7 @@ h4 {
 .about-us-box-img img {
     width: 100%;
     height: auto;
-    border-radius: 30px;
+    border-radius: 15px;
     padding: 20px;
     float: left;
 }
@@ -229,7 +229,7 @@ h4 {
        align-content: center;
    -webkit-box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
            box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
-   padding: 30px;
+   padding: 10px;
    position: relative;
    background: rgba(232, 242, 230, 0.753);
 
@@ -240,7 +240,8 @@ h4 {
     color: #113822;
     font-weight: 800;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .team-heading i {
@@ -255,7 +256,7 @@ h4 {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 auto;
             flex: 1 1 auto;
-    padding: 10px;
+    padding: 5px;
     border:none;
     border-radius: 10px;
     background:-webkit-gradient(linear,left top, left bottom,from((rgba(3, 55, 23, 0.6)),to rgba(232, 242, 230, 0.849)));
@@ -266,9 +267,7 @@ h4 {
  
 .team-image {
     -o-object-fit: cover;
-       object-fit: cover;
-    height: auto;
-    width: 60%;
+    object-fit: cover;
     border-radius: 50%;
 }
 
@@ -294,8 +293,12 @@ h4 {
 
 }
 
+.card-body {
+    padding: 10px;
+}
+
 #teamImage {
-    display: block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
@@ -310,7 +313,7 @@ h4 {
   background: linear-gradient(rgba(232, 242, 230, 0.849),rgba(3, 55, 23, 0.6));
   -webkit-box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
           box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
-  padding: 40px;
+  padding: 5px;
   position: relative;
   text-align: center;
   color: #2b6247;
@@ -328,21 +331,19 @@ h4 {
 }
 
 .service-item img{
-    border-radius: 30px;
+    border-radius: 15px;
+    padding-bottom: 20px;
 }
 
 .centered{
-  position: absolute;
-  top: 75%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  background:rgba(29, 51, 28, 0.9);
-  font-size: 1.1rem;
-  font-weight: 800;
-  border-radius: 10px;
-  white-space: nowrap;
+    position: absolute;
+    top:90%;
+    left: 10;
+    width: 95%;
+    background: rgba(0, 51, 28, 0.9);
+    font-size: 1.1rem;
+    font-weight: 800;
+    white-space: nowrap;
 }
 
 .service-heading{
@@ -369,7 +370,7 @@ h4 {
   -webkit-box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
           box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
   color: #113822;
-  padding: 40px;
+  padding: 10px;
   text-align: center;
 
 }
@@ -460,7 +461,7 @@ h4 {
 .form-container {
     width: 100%;
     height: 100%;
-    padding: 50px;
+    padding: 10px;
     background: rgba(218, 235, 218, 0.7);
     
 }
@@ -476,6 +477,9 @@ form {
     padding-left: 30px;
     margin-top: 40px;
     line-height: 1.5;
+}
+.text-muted {
+    color: #113822!important;
 }
 
 .btn-success {
@@ -525,7 +529,6 @@ footer {
     -webkit-box-shadow: 0 -.5rem .5em rgba(0, 0, 0, .2);
             box-shadow: 0 -.5rem .5em rgba(0, 0, 0, .2);
     z-index: 1;
-    position: sticky;
 }
 
 .uppercase {
@@ -589,4 +592,10 @@ footer {
 #footer-details {
     padding:10px;
     
+}
+@media (min-width: 576px)
+.card-deck .card {
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    margin-bottom: 0;
 }
