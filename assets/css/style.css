@@ -31,6 +31,7 @@ body {
 
 .space{
     padding: 40px 0;
+    margin-top: 5px;
 }
 
 hr {
@@ -42,6 +43,11 @@ hr {
 h2 {
     font-weight: 800;
     font-size: 1.75rem;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
 }
 
 h4 {
@@ -68,6 +74,7 @@ h4 {
     -webkit-box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
             box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
     z-index: 1;
+    position: sticky;
 }
 
 #navbarLogo a {
@@ -109,7 +116,7 @@ h4 {
     border:0;
 }
 
-/*-----Jumbotron & Image --*/
+/****Jumbotron & Image****/
 
 .callout-container {
     height: 100vh;
@@ -277,7 +284,7 @@ h4 {
     color: #113822;
     font-weight: 800;
     text-align: center;
-    margin-top: 0;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
@@ -449,7 +456,6 @@ h4 {
     color: #113822;
     font-weight: 800;
     text-align: center;
-    padding-top: 30px;
     margin:10px;
 }
 
@@ -463,6 +469,7 @@ h4 {
     height: 100%;
     padding: 10px;
     background: rgba(218, 235, 218, 0.7);
+    text-align: center;
 }
 
 .form-group {
@@ -471,7 +478,10 @@ h4 {
     font-size: 1.2rem;
     color: #113822;
     margin-bottom: 1.5rem;
+    text-align: left;
 }
+
+
 
 form {
     margin-top: 40px;
@@ -482,13 +492,12 @@ form {
     color: #113822!important;
 }
 
+
 .btn-success {
     color: #e8f2e6;
     background-color: #2b6247;
     border-color: #e8f2e6;
-    margin-bottom: 30px;
     font-size: 1.3rem;
-    float: right;
 }
 
 .btn-success:hover {
@@ -500,7 +509,7 @@ form {
 .company-info{
     color: #113822;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .company-info h3 {
@@ -597,9 +606,6 @@ footer {
 /****Media Queries****/
 
 
-/****Phones and tablets****/
-
-
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) { 
     
@@ -630,7 +636,17 @@ footer {
     height: auto;
 }
 .team-container {
-    padding: 0;
-    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.team-container h2 {
+    padding-top: 30px;
+}
+
+form{
+    padding-left: 10px;
 }
 }

@@ -13,16 +13,17 @@
 
 <body>
 	<!--Navigation Bar-->
-	<nav class="navbar navbar-expand-lg navbar-light navbar nabar fixed-top">
+	<nav class="navbar navbar-expand-lg navbar-light">
 		<div class="container-fluid"> <span id="navbarLogo" class="navbar-brand text-uppercase"><a href="index.html"> Lomasney Motors</a></span>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"> <a class="nav-link" href="#about">About</a> </li>
-					<li class="nav-item"> <a class="nav-link" href="#team">Team</a> </li>
-					<li class="nav-item"> <a class="nav-link" href="#services">Services</a> </li>
-					<li class="nav-item"> <a class="nav-link" href="#review">Testimonials</a> </li>
-					<li class="nav-item"> <a class="nav-link" href="#contact">Contact</a> </li>
+                <!--Code snippet from Stackoverflow to solve issue of hamburger menu closing once link is clicked, taken from Orel Eliyahu' on Stack Overflow - https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked-->
+					<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse"> <a class="nav-link" href="#about">About</a> </li>
+					<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse"> <a class="nav-link" href="#team">Team</a> </li>
+					<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse"> <a class="nav-link" href="#services">Services</a> </li>
+					<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse"> <a class="nav-link" href="#review">Testimonials</a> </li>
+					<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse"> <a class="nav-link" href="#contact">Contact</a> </li>
 				</ul>
 			</div>
 		</div>
@@ -44,7 +45,7 @@
 	<!-- /.callout -->
 	<!--About Section-->
 	<section id="about">
-		<div class=" about-container about-container-gray-bg">
+		<div class=" about-container about-container-gray-bg space">
 			<div class="row">
 				<div class="col-12 col-lg-6 about-us-box">
 					<div class="about-us-box-text">
@@ -64,7 +65,7 @@
 	<!--Team section-->
 	<section id="team">
 		<div class="section-container team-container space">
-			<h2 class="team-heading mt-2">Meet the Team  <i class="fas fa-users-cog"></i></h2>
+			<h2 class="team-heading">Meet the Team  <i class="fas fa-users-cog"></i></h2>
 			<div class="row">
 				<div class="card-deck mt-2">
 					<div class="col-sm-12 col-md-6 d-flex">
@@ -90,7 +91,7 @@
 	<!--/team-->
 	<!--Services-->
 	<section id="services">
-		<div class="container-fluid service-container bg-gray">
+		<div class="container-fluid service-container bg-gray space">
 			<div class="row">
 				<div class="col-12 mt-2">
 					<h2 class="service-heading text-center">Our Services<i class="fas fa-tools"></i></h2> </div>
@@ -129,9 +130,9 @@
 	<!--/services-->
 	<!--Testimonials-->
 	<section id="review">
-		<div class="container-fluid testimonial-container mt-3 mb-2">
+		<div class="container-fluid testimonial-container space mb-2">
 			<div class="row">
-				<div class="col-md-12 mt-2 space">
+				<div class="col-md-12 mt-2">
 					<h2 class=" text-center mt-3">Our Customers</h2>
 					<hr>
 					<div id="carouselTestimonialSlides" class="carousel slide" data-ride="carousel">
@@ -214,7 +215,7 @@
 	<section id="contact">
 		<div class="container-fluid contact-container">
 			<div class="form-container">
-				<div class="row">
+				<div class="row space">
 					<h2 class="contact-heading">Get In Touch<i class="far fa-envelope"></i></h2>
 					<div class="col-md-6">
 						<!---Bootstrap4 forms snippet-->
