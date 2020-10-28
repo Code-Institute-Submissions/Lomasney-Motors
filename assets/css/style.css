@@ -62,28 +62,24 @@ h4 {
 
 /******Navbar*******/
 
-.navbar-brand a {
-    height: 60px;
-}
-
 .navbar {
     background-color:#e8f2e6;
-    font-size: 1.2rem;
     font-family: "Montserrat",sans-serif;
-    font-weight: 900;
+    font-size: 1.1rem;
+    font-weight: 800;
     -webkit-box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
-            box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
     z-index: 1;
-    position: sticky;
+    padding: 5px;
 }
 
 #navbarLogo a {
     color: #113822;
     font-family: "Montserrat",sans-serif;
-    font-size: 1.4rem;
     font-weight:800;
     padding-top:10px;
     padding-bottom: 10px;
+    padding-left: 10px;
     letter-spacing: .1rem;
     line-height: 1.5;
     text-decoration: none;
@@ -190,7 +186,7 @@ h4 {
 
 .about-us-box {
     margin-top: 20px;
-    padding: 5px;
+    padding: 10px 5px;
 }
  
 .about-us-box-text {
@@ -239,7 +235,6 @@ h4 {
     box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
     position: relative;
     background: rgba(232, 242, 230, 0.753);
-
 }
 
 .team-heading {
@@ -354,8 +349,8 @@ h4 {
     color: #113822;
     font-family: "Montserrat",sans-serif;
     font-weight: 800;
-	margin: 30px 0px;
-	padding: 5px 5px;
+	margin-top: 30px;
+	padding: 20px 5px;
 	text-align: center;  
 }
 
@@ -377,6 +372,10 @@ h4 {
     color: #113822;
     padding: 10px;
     text-align: center;
+}
+
+.test-header{
+    padding-top: 30px;
 }
 
 /*****Carousel****/
@@ -480,8 +479,6 @@ h4 {
     margin-bottom: 1.5rem;
     text-align: left;
 }
-
-
 
 form {
     margin-top: 40px;
@@ -626,7 +623,6 @@ footer {
      text-align: right;
  }
 }
-
 
 /****Large devices (desktops, 992px and up)****/
 @media (min-width: 992px) {

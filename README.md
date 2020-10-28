@@ -105,7 +105,7 @@ The website was built as a one page scrolling website that includes 5 different 
  to the left and navigation links to the right, the navbar is responsive and it's menu collapses into a hamburger menu 
  for both tablet and mobile devices.
  The footer consists of opening hours and copyright information to the left and links to social media, telephone and 
- direction information on the right.
+ direction information on the right.changed the footer and header to "not fixed" to cut down on vertical space usage.
 
 #### Home Page
  The Hompage was designed to be a visual display with minimal text, it includes a hero image, a brief description highlighting 
