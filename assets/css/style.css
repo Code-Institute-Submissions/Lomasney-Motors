@@ -30,7 +30,7 @@ body {
 }
 
 .space{
-    padding: 50px 0;
+    padding: 40px 0;
 }
 
 hr {
@@ -52,13 +52,13 @@ h4 {
 
 /******Navbar*******/
 
-.navbar-brand {
+.navbar-brand a {
     height: 60px;
 }
 
 .navbar {
     background-color:#e8f2e6;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-family: "Montserrat",sans-serif;
     font-weight: 900;
     -webkit-box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
@@ -66,7 +66,7 @@ h4 {
     z-index: 1;
 }
 
-#navbarLogo {
+#navbarLogo a {
     color: #113822;
     font-family: "Montserrat",sans-serif;
     font-size: 1.4rem;
@@ -75,6 +75,7 @@ h4 {
     padding-bottom: 10px;
     letter-spacing: .1rem;
     line-height: 1.5;
+    text-decoration: none;
 }
 
 .nav-item {
@@ -89,7 +90,6 @@ h4 {
     color: #7e9b86;
 }
 
-.navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link:hover {
     color: #113822;
 }
@@ -197,7 +197,7 @@ h4 {
 .about-us-box-text p {
     color: #113822;
     font-family: "Raleway",sans-serif;
-    font-size:1.1rem;
+    font-size:1.3rem;
     font-weight: 600;
     text-align: center;
 }
@@ -225,7 +225,6 @@ h4 {
     align-content: center;
     -webkit-box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
     box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
-    padding: 10px;
     position: relative;
     background: rgba(232, 242, 230, 0.753);
 
@@ -262,9 +261,7 @@ h4 {
 }
  
 .team-image {
-    -o-object-fit: cover;
-    object-fit: cover;
-    border-radius: 50%;
+    border-radius: 10px;
 }
 
 .card-title {
@@ -279,7 +276,7 @@ h4 {
 .card-text {
     font-family: "Raleway",sans-serif;
     color: #2b6247;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: 600;
     -ms-flex-line-pack: center;
     align-content: center;
@@ -317,7 +314,7 @@ h4 {
     clear: both;
     padding: 10px;
     font-family: "Raleway",sans-serif;
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 800;
     color: #f6fbf8;
     text-align: center;  
@@ -325,16 +322,16 @@ h4 {
 
 .service-item img{
     border-radius: 15px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
+    width: 100%;
 }
 
 .centered{
-    position: absolute;
     top:90%;
     left: 10;
-    width: 95%;
+    width: 100%;
     background: rgba(0, 51, 28, 0.9);
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: 800;
     white-space: nowrap;
 }
@@ -464,12 +461,12 @@ h4 {
 .form-group {
     font-family: "Raleway",sans-serif;
     font-weight: 800;
+    font-size: 1.2rem;
     color: #113822;
     margin-bottom: 1.5rem;
 }
 
 form {
-    padding-left: 30px;
     margin-top: 40px;
     line-height: 1.5;
 }
@@ -483,6 +480,8 @@ form {
     background-color: #2b6247;
     border-color: #e8f2e6;
     margin-bottom: 30px;
+    font-size: 1.3rem;
+    float: right;
 }
 
 .btn-success:hover {
@@ -494,7 +493,6 @@ form {
 .company-info{
     color: #113822;
     text-align: center;
-    padding-left: 30px;
     margin-top: 40px;
 }
 
@@ -505,7 +503,7 @@ form {
 
 .company-info p {
     font-family: "Raleway",sans-serif;
-    font-size:1.1rem;
+    font-size:1.2rem;
     font-weight: 700;
     padding-bottom: 5px;
     padding-top: 5px;
@@ -553,7 +551,7 @@ footer {
 
 .copyright-text {
     color: #113822;
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: 700;   
 }
 
@@ -596,4 +594,26 @@ footer {
     -ms-flex: 1 0 0%;
     flex: 1 0 0%;
     margin-bottom: 0;
+}
+
+/*phones*/
+@media screen and (max-width: 768px) {
+
+
+}
+
+/*phones and tablets*/
+@media screen and (max-width: 992px) {
+}
+
+/*desktops and XL screens*/
+@media screen and (min-width: 993px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) { 
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
 }
