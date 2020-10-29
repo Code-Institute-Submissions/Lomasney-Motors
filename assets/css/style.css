@@ -69,8 +69,6 @@ h4 {
     font-weight: 800;
     -webkit-box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
     box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
-    z-index: 1;
-    padding: 5px;
 }
 
 #navbarLogo a {
@@ -102,8 +100,8 @@ h4 {
 }
 
 .navbar-toggler{
-    padding: 0;
-    border: 0;
+    padding-right: 20px;
+    border: none;
     font-size: 1rem;
 }
 
@@ -222,9 +220,10 @@ h4 {
 .about-container {
     box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
     -webkit-box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
-    background:-webkit-gradient (linear,left top, left bottom,from (rgba(232, 242, 230, 0.849),to (rgba(3, 55, 23, 0.6)),to));
-    background:-o-linear-gradient(rgba(232, 242, 230, 0.849),rgba(3, 55, 23, 0.6));
-    background: linear-gradient(rgba(232, 242, 230, 0.849),rgba(3, 55, 23, 0.6));
+    background: rgba(232, 242, 230, 0.849);
+    /*background:-webkit-gradient (linear,left top, left bottom,from (rgba(232, 242, 230, 0.849),to (rgba(69, 143, 97, 0.6)),to));
+    background:-o-linear-gradient(rgba(232, 242, 230, 0.849),rgba(69, 143, 97, 0.6));
+    background: linear-gradient(rgba(232, 242, 230, 0.849),rgba(69, 143, 97, 0.6));*/
 }
 
 /****Team Section****/
