@@ -190,28 +190,30 @@ customers on the premises.
 ## **Technologies Used**
 ---
 ### **_Languages_**
-- HTML5
-- CSS3
-- JQuery - the project used this as a built in feature of Bootstrap, used for the modal feature for the testimonial section.
+- **HTML5**
+- **CSS3**
+- **JQuery:** - 
+The project used this as a built in feature of Bootstrap, used for the modal feature for the testimonial section.
 
 ### **_Integretions_**
-- Bootstrap4 
+- **Bootstrap4:**
   Used for the grid layout for the website
-- Font Awesome
+- **Font Awesome:**
   Used to add icons to my footer and sections of the website
-- Google Fonts
+- **Google Fonts:**
   Used to select the font styles used on the website for the section heading and body.
 
 ### **_Workspace_**
-- GitHub
-- Gitpod
-- Git
+- **GitHub:** - (IDE) Integrated Development Environment 
+- **Gitpod:** - Cloud based hosting platform for managing my repositories, tracking changes and storing files.
 
 ### **_Other_**
-- Autoprefixer CSS
+- **Autoprefixer CSS:**
   An online tool used to parse the CSS and add vendor prefixes where required.
-- Tinyjpeg
+- **Tinyjpeg:**
   This was used to compress the images used on the website.
+- **Balsamiq Wireframes:**
+  Used to create wireframes for this project
 
 ## **Testing**
 ---
@@ -252,12 +254,16 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ## **Credits**
 ---
-- W3 Schools
-- Stackoverflow
-- Bootstrap
-- Baz Alrawi - Images
-- Cillian McCarthy - services content
-- Balsamiq wireframes
+### **_Code_**
+- **W3 Schools:**
+CSS code was taken from WW3 Schools for aligning images next to each other for the services section then edited
+- **Stackoverflow:**
+CSS code was taken from StackOverflow to solve an issue with the hamburger menu not closing on clicking a link
+the navbar was remaining open. Code taken from [Orel Eliyahu](https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked)
+- **Bootstrap:**
+Code for contact navbar, team card deck, carousel slider and contact form were taken from [Bootstrap Documentation](https://getbootstrap.com/docs/4.1/getting-started/introduction/) and edited
+- **MDBootrap:**
+HTML code for modal dialog box taken from [MDBootstrap](https://mdbootstrap.com/docs/jquery/modals/forms/)
 
 ### **_Content_**
 - The text for the 'About Us', 'Meet the Team' and Services section were obtained from Dermot Lomasney, Cillian McCarthy, 
@@ -265,7 +271,7 @@ the owner and employee at Lomasney Motors and some text was added by me from my 
 The testimonials content was taken from the company Facebook review section and also reviews from Google.
 
 ### **_Media_**
-- The photos used in this site were obtained from Basil Alrawi, who I enlisted to take some quality photos for the website.
+- The photos used in this site were obtained from Basil Alrawi of [Bazar Productions](https://www.bazarproductions.com/), the photographer of the images taken for the website.
 
 ## **Acknowledgements**
 ---
