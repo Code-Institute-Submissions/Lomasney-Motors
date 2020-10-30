@@ -109,48 +109,69 @@ where images were required for the services section.
 
 ## **Features**
 ---
-The website was built as a one page scrolling website that includes 5 different sections of one page each
- - General (navbar, logo, footer, social links, directions link, opening hours)
- - Home Page ( hero image, request a quote call to action)
- - About Section (paragraph about company, images, location)
- - Services Section (Images, services provided)
- - Testimonials Section (reviews from customers, star rating, leave a review button)
- - Contact Us Section(contact form, opening hours, map)
+The website was built as a one page scrolling website that includes 5 different sections.
 
- 
-### **_Existing Features_**
+### **Navbar & footer**
+ The **navigation bar** is in a fixed position to make it easy for users to access the navigation elements of the website and allow them to 
+ move from section to section as they wish. The navbar consists of **logo text** to the left which **acts as a link to the homepage** and 
+ is always visible on screen. The **navigation links** are lcoated to the far right, and provide scroll links to each section. The navbar 
+ is responsive and the navigation menu collapses into a **hamburger menu** for both tablet and mobile devices.
+ The **footer** includes **opening hours** details and **copyright information** to the left and links to **social media**, **telephone** and **direction** 
+ information on the right. I initially had both the navbar and footer fixed however  I changed this design to the footer to cut down on 
+ vertical space usage as it was obstructing content.
 
-#### **_Navbar & footer_**
- The Navbar and footer are both in a fixed position to make it easy for users to access the navigation elements of the
- website and always have constant accessibility to social, direction and phone links. The navbar consists of logo text 
- to the left and navigation links to the right, the navbar is responsive and it's menu collapses into a hamburger menu 
- for both tablet and mobile devices.
- The footer consists of opening hours and copyright information to the left and links to social media, telephone and 
- direction information on the right.changed the footer and header to "not fixed" to cut down on vertical space usage.
-
-#### **_Home Page_**
- The Hompage was designed to be a visual display with minimal text, it includes a hero image, a brief description highlighting 
- the main services the company provide which is jumbotron displayed over the hero image and a call to action button which provides
+### **Home Page**
+ The Hompage was designed to be a visual display with minimal text, it includes a **hero image**, a brief description highlighting 
+ the main services the company provide which is jumbotron displayed over the hero image and a **call to action button** which provides
  a link to the contact form once clicked. The idea of the homepage is to visually entice the user while not bombarding them with an 
  overload of text to consume.
 
-#### **_About Page_**
+### **About Page**
 The About page is set up as a two column grid display with the left side displaying three small paragraphs of text detailing a brief 
-history and background of the business and a full width image of the owner and company signage to the right. I decided to use this image 
-as it represents what the company is about, a family run local garage.
+history and background of the business and a full width **image** of the owner and company signage to the right. I decided to use this image 
+as it represents what the company is about, a family run local garage and enhances the personal feel of the business.
 
-#### **_Services Page_**
-The services page is a 3 column display of images with a text overlay decribing the services the company offer. There is an image to 
+### **Services Page**
+The services page is a 3 column display of **images** with a text underneath stating the services the company offer. There is an image to 
 represent each service with a total of 9 services and correpsonding images displayed. In mobile view this has been reduced to one column 
 with each service displayed as a block element, with one after the other.
 
-#### **_Testimonials Page_**
+### **Testimonials Page**
 The testimonials page was designed using a Bootstrap carousel slider which runs automatically showcasing customer reviews. In larger screen sizes
-a call to action button with the caption 'Leave a Review' has been added which when clicked opens a modal dialog box for users to write a review and submit it.
+a **call to action** button with the caption 'Leave a Review' has been added which when clicked opens a **modal dialog box** for users to write a review,
+give it a star rating and submit it.
 
-#### **_Contact Us Page_** 
-The contact us section is a two column page that includes a contact form on the left hand column and to the right I have included the business address, opening hours
-and a basic map image showing the location of Lomasney Motors.
+### **Contact Us Page** 
+The contact us section is a two column page that includes a **contact form** on the left hand column and to the right I have included the business address, opening hours
+and a basic **map** image showing the location of Lomasney Motors.
+
+### **_Existing Features_**
+
+ **_General_**
+ - The navigation bar is displayed as fixed and is in view at all times on all devices for ease of access for users it contains the company logo text as 
+ a link to the hompage and navigation links to the other sections to the right.
+ The footer includes opening hours displayed to the left hand side and copyright information underneath this. Located to the left hand side are 3 icons
+ with links to the company Facebook page, a telephone call link and a link to google map directions.
+
+ **_Home Page_**
+ - The homepage includes a hero image with an opaque overlay. It also contains a jumbotron with a brief few services highlighted and a call to action button
+ that states 'Request a Quote' which directs the user to the contact section once clicked.
+
+ **_About Section_**
+ - The about section is designed as a two column container with section header and three small parapgraphs of text about the company to the left and on the right
+ column there is an full width image of the company owner Dermot Lomasney.
+
+ **_Services Section_**
+ - The services section is a three column grid with 3 images aligned side by side and text with a semi-transparent background that states each services below each image.
+
+ **_Testimonials section_**
+ - This section is a featured as a automatic carousel slider displaying customer reviews including star ratings. Directly underneath the carousel slider there is a call to action
+ button 'Leave a Review' highlighted in yellow, which once clicked opens a modal dialog box where users can leave a review on the website if they wish to do so.
+ 
+ **_Contact Us Section_**
+ - This section has a contact form feature to the left where users can get in touch with the company via email. It includes fields for name, email, phone no., car make, car model
+ a message text area and a centered send button. To the right of the form there is some company information which features the business address, telephone no., and opening hours.
+ Underneath the company information there is a simple basic map of the company location.
 
 ### **_Features Left to Implement_**
 - COVID 19 Information - how the company have adapted to the new Health & Safety Standards
