@@ -275,9 +275,10 @@ The testimonials content was taken from the company Facebook review section and 
 
 ## **Acknowledgements**
 ---
-- My inspiration for this project came from my Dad. He is the owner of Lomasney Motors since 1987 and the business has never had a website.
-  He has many regular customers, however as society has changed alot in the last 30 years, Midleton has now a much bigger population and the
-  surrounding area has grown exponentially. It is important today for any business to have an online presence as customers will now 
-  search online to find the service they are looking for. I have seen the business Lomasney Motors go from strength to strength during the 
-  recession and the covid 19 pandemic. Now more than ever I thought it would be a good idea to put my skills to some real \
-  life use and build a simple yet effective website that will allow the business to expand its customer base and showcase what the services they offer.
+- My inspiration for this project came from my Dad. He is the owner of Lomasney Motors since 1987 and the business has never had a website, 
+  so I thought it would be a good idea to put my skills to some real life use and build a simple yet effective website that will allow the 
+  business to create a stronger online presence, expand its customer base and showcase what the services they offer.
+
+- I would like to thank my mentor Brian Macaria for all his help and support throughout this process.
+
+- I would also like to thank Basil Alrawi for the fantastic images he produced for this website.
