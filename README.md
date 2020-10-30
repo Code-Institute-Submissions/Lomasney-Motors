@@ -1,13 +1,17 @@
-# Lomasney Motors
+# LOMASNEY MOTORS
+## Milestone 1 Project - User Centric Frontend Development
+![Lomasney Motors Mockup for](wireframes/multi-device.png "Multi-device Mockup")
 
+## Overview
+---
 This is a fully responsive website I am developing for Lomasney Motors, a family run car service and repairs business based in Midleton, Co. Cork, Ireland.
 The focus of this website is to provide customers with information about the business and to develop an online presence for the company. In 
 this current climate with the challenges facing all businesses with COVID-19, it is vital stay connected with customers and is the key to securing the future 
-of the business, it is important to develop a positive online presense to retain existing customers and also to attract new customers. The website includes
-the following sections: About (Who they are?), Meet the Team, Services (What they do?), Testimonials and a Contact section. This project will be on-going and will be updated 
+of the business, it is important to develop a positive online presense to retain existing customers and also to attract new customers. The website is a single page 
+scrolling website with 5 sections: About Us, Meet the Team, Services, Testimonials and a Contact section. This project will be on-going and will be updated 
 regularly and changes made to suit the needs and requirements of both the owner and the users.
 
-#### The Business Objectives
+### The Business Objectives
 1. To develop an online presence.
 2. Increase brand awareness.
 3. Expand the target audience reach.
@@ -15,7 +19,7 @@ regularly and changes made to suit the needs and requirements of both the owner 
 5. Provide easily accessible information to customers.
 6. To develop online communication with our customer base.
 
-#### Customer Objectives
+### Customer Objectives
 1. To gain access to services information and pricing.
 2. To access business opening hours and contact details.
 3. To be able to get in touch with the business online.
@@ -23,12 +27,12 @@ regularly and changes made to suit the needs and requirements of both the owner 
 5. Location information.
 6. Easily access information required.
 
-##### Future goals
+### Future goals
 * Ability to book a service online.
 * Offer rewards and promotions to loyal customers.
 
 ## UX
- 
+---
 This website is for customers, to provide up to date, relevant and easily available information about the business and the services it provides.
 The objective of this project is to develop a user-friendly platform that both new and existing customers can use for a range of purposes which were
 identified through research, from the perspective of the business and user perspective.
@@ -88,6 +92,7 @@ the services section.
 
 
 ## Features
+---
 The website was built as a one page scrolling website that includes 5 different sections of one page each
  - General (navbar, logo, footer, social links, directions link, opening hours)
  - Home Page ( hero image, request a quote call to action)
@@ -143,7 +148,7 @@ and a basic map image showing the location of Lomasney Motors.
 - Customer database with service history
 
 ## Technologies Used
-
+---
 ### Languages
 - HTML5
 - CSS3
@@ -169,7 +174,7 @@ and a basic map image showing the location of Lomasney Motors.
   This was used to compress the images used on the website.
 
 ## Testing
-
+---
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
@@ -194,7 +199,7 @@ If this section grows too long, you may want to split it off into a separate fil
 - Contact Image not fully covering section
 
 ## Deployment
-
+---
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
@@ -206,6 +211,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 
 ## Credits
+---
 - W3 Schools
 - Stackoverflow
 - Bootstrap
@@ -221,8 +227,8 @@ The testimonials content was taken from the company Facebook review section and 
 ### Media
 - The photos used in this site were obtained from Basil Alrawi, who I enlisted to take some quality photos for the website.
 
-### Acknowledgements
-
+## Acknowledgements
+---
 - My inspiration for this project came from my Dad. He is the owner of Lomasney Motors since 1987 and the business has never had a website.
   He has many regular customers, however as society has changed alot in the last 30 years, Midleton has now a much bigger population and the
   surrounding area has grown exponentially. It is important today for any business to have an online presence as customers will now 
