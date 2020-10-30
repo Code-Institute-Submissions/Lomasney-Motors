@@ -16,8 +16,9 @@
 }
 
 .row, .container, .container-fluid {
-    padding: 5px;
-    margin: 5px;
+    padding-right: 10px;
+    padding-left: 30px;
+    margin-right: 5px; 
 }
 
 :root{
@@ -642,4 +643,5 @@ footer {
 form{
     padding-left: 10px;
 }
+
 }
