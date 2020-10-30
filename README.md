@@ -219,7 +219,9 @@ The project used this as a built in feature of Bootstrap, used for the modal fea
 ---
 **Validation**
 - W3C HTML Markup Validator
+
 - W3C CSS Validator#
+Parse Error on items related to CSS Variable values. I asked my mentor if this was an issue and after some research found that this was not an issue.
 
 
 **Tests Carried Out**
@@ -284,15 +286,28 @@ When any of the buttons on the site including the 'Request a Quote' on the homep
 'Send' button on the contact form should all change to a deeper colour once hovered over.
 All buttons function as expected and no issues were found.
 
+**Test**
+Navigation bar responsiveness
+Test responsiveness of navigation bar using  Chrome DevTools to check if it working across all devices.
+Navigation bar was responsive across all device and collapsed into hamburger menu in tablet and mobile devices.
+
+**Test**
+Radio Button Functionality on modal dialog box
+Tested the radio buttons to make sure only one option could be selected, no issues were found,
+buttons worked as expected.
+
+**Test**
+Conducted spell check on README file and text used in 'About'section and 'Meet the Team' sections,
+all spelling errors were corrected.
+
+**Other Tests**
+Ran code through Autoprefixer and copied code back into css file.
+Ran code on Mobile Friendly Test page and passed all tests. The site is mobile friendly as expected.
+
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
@@ -300,10 +315,8 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 ## **_Issues_**
-- Navbar background color
 - Navbar toggle menu collapsing
 - Carousel slides overlapping https://stackoverflow.com/questions/46147695/bootstrap-carousel-is-displaying-all-images-on-top-of-each-other
-- Contact Image not fully covering section
 
 ## **Deployment**
 ---
