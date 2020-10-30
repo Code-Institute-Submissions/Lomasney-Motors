@@ -217,7 +217,72 @@ The project used this as a built in feature of Bootstrap, used for the modal fea
 
 ## **Testing**
 ---
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+**Validation**
+- W3C HTML Markup Validator
+- W3C CSS Validator#
+
+
+**Tests Carried Out**
+Contact Form Validity - required fields
+If you try to submit the form with only one of the fields complete and an error will occur
+and prompt you to populate all the other required fields before I can submit the form.
+The form cannot be submitted without the required fields populated.
+**Outcome:**
+Pass
+
+**Test**
+Contact Form Email Validity - email valid
+If you try to input a name into the email field instead of an email address.
+An error will occur and state this is not a valid email address.
+
+**Test**
+Footer links - Directions & Facebook
+All links should open in a new tab as the have the attribute target="_blank"
+All links were tested and do open in a new tab anytime they are clicked.
+
+**Test**
+Footer Link - Phone number
+This link should prompt the user to make a call to the phone number provided.
+The test carried out was successful and the link will prompt the user to make a call if they wish.
+
+**Test**
+Navigation links
+All navigation links when clicked should scroll directly to the section targeted.
+The test was successful and all links are working correctly and scroll to the appropriate section.
+
+**Test**
+Navigation Logo link
+This link should direct the user back to the homepage.
+As the navigation bar is fixed the user should be able to retreat to the homepage at any point.
+The test was successful and the navigation logo reverts the user to the homepage when it is clicked.
+
+**Test**
+Hamburger menu closing after link has been selected.
+The hamburger menu on mobile and tablet devices should automatically close once the link chosen has been selected.
+After using the code snippet found to solve this problem on StackOverflow, the test result showed that once a 
+menu link has been selected the hamburger menu will close automatically on selection.
+
+**Test**
+Check alt text appears for all images
+Hover over images to see if there is clear alt text visible.
+All images were tested and passed
+
+**Test**
+Request a Quote: Call to action
+Check to see if the call to action button 'Request a Quote' links to the contact secton when clicked.
+The button takes the user directly to the contact section as intended, this test was a success.
+
+**Test**
+Modal Dialog Box: 'Leave a Review'
+The button in the testimonials section 'Leave a Review' should open a modal dialog box for the user once clicked
+to allow the user to fill in a review form to submit.
+The button does as intended and no issues were found.
+
+**Test**
+Button Hover Function: darker colour
+When any of the buttons on the site including the 'Request a Quote' on the homepage, 'Leave a Review' on the testimonals section,
+'Send' button on the contact form should all change to a deeper colour once hovered over.
+All buttons function as expected and no issues were found.
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 
@@ -276,7 +341,7 @@ HTML code used for radio buttons in modal and edited from [Stack Overflow](https
 - **CSSTricks:**
 CSS code snippet for background image for contact section from [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/)
 - **Bootstrap:**
-HTML Code for contact navbar, team card deck, carousel slider and contact form were taken from [Bootstrap Documentation](https://getbootstrap.com/docs/4.1/getting-started/introduction/) and edited
+HTML Code for navbar, card deck, carousel slider and contact form were taken from [Bootstrap Documentation](https://getbootstrap.com/docs/4.1/getting-started/introduction/) and edited
 - **MDBootrap:**
 HTML code for modal dialog box taken from [MDBootstrap](https://mdbootstrap.com/docs/jquery/modals/forms/) and edited.
 
