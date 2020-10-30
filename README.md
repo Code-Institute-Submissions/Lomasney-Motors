@@ -237,33 +237,48 @@ If this section grows too long, you may want to split it off into a separate fil
 ## **_Issues_**
 - Navbar background color
 - Navbar toggle menu collapsing
-- Carousel slides overlapping
+- Carousel slides overlapping https://stackoverflow.com/questions/46147695/bootstrap-carousel-is-displaying-all-images-on-top-of-each-other
 - Contact Image not fully covering section
 
 ## **Deployment**
 ---
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+This project was developed using Gitpod IDE, then pushed to GitHub, where the [respository](https://github.com/elomasney/Lomasney-Motors-1.0) is stored.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+**_Project Deployment_**
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+The following steps outline how the project was deployed to GitHub pages:
 
+1. Logged on to GitHub
+2. Opened the repository **Lomasney-Motors-1.0**
+3. Clicked on the **settings** tab on the right hand side of menu.
+4. Scrolled down the page until I reached the **GitHub Pages** section.
+5. Under **'source'** I selected the branch drop-down menu.
+6. I selected the **'Master'** branch and clicked the **'Save'** button.
+7. This allowed the site to be published to GitHub pages and url for the site was displayed in a box above the source section.
+
+*The deployed version and the development version of this project are the same.*
+
+**_To run the project locally:_**
+
+1. Open this link to the [Project Repository](https://github.com/elomasney/Lomasney-Motors-1.0)
+2. Click on the **'Code'** button at the top.
+3. From here you can select to either **download** or **clone** to a desktop IDE using the url provided.
 
 ## **Credits**
 ---
 ### **_Code_**
 - **W3 Schools:**
-CSS code was taken from WW3 Schools for aligning images next to each other for the services section then edited
+HTML code was taken from WW3 Schools for aligning images next to each other for the services section then edited
 - **Stackoverflow:**
-CSS code was taken from StackOverflow to solve an issue with the hamburger menu not closing on clicking a link
+HTML code was taken from StackOverflow to solve an issue with the hamburger menu not closing on clicking a link
 the navbar was remaining open. Code taken from [Orel Eliyahu](https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked)
+HTML code used for radio buttons in modal and edited from [Stack Overflow](https://stackoverflow.com/questions/27870042/bootstrap-input-dialog-with-radio-buttons)
+- **CSSTricks:**
+CSS code snippet for background image for contact section from [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/)
 - **Bootstrap:**
-Code for contact navbar, team card deck, carousel slider and contact form were taken from [Bootstrap Documentation](https://getbootstrap.com/docs/4.1/getting-started/introduction/) and edited
+HTML Code for contact navbar, team card deck, carousel slider and contact form were taken from [Bootstrap Documentation](https://getbootstrap.com/docs/4.1/getting-started/introduction/) and edited
 - **MDBootrap:**
-HTML code for modal dialog box taken from [MDBootstrap](https://mdbootstrap.com/docs/jquery/modals/forms/)
+HTML code for modal dialog box taken from [MDBootstrap](https://mdbootstrap.com/docs/jquery/modals/forms/) and edited.
 
 ### **_Content_**
 - The text for the 'About Us', 'Meet the Team' and Services section were obtained from Dermot Lomasney, Cillian McCarthy, 
@@ -279,6 +294,6 @@ The testimonials content was taken from the company Facebook review section and 
   so I thought it would be a good idea to put my skills to some real life use and build a simple yet effective website that will allow the 
   business to create a stronger online presence, expand its customer base and showcase what the services they offer.
 
-- I would like to thank my mentor Brian Macaria for all his help and support throughout this process.
+- I would like to thank my mentor Brian Macaria for all his help and support throughout this project.
 
 - I would also like to thank Basil Alrawi for the fantastic images he produced for this website.
