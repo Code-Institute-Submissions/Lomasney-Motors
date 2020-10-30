@@ -174,15 +174,18 @@ and a basic **map** image showing the location of Lomasney Motors.
  Underneath the company information there is a simple basic map of the company location.
 
 ### **_Features Left to Implement_**
-- COVID 19 Information - how the company have adapted to the new Health & Safety Standards
-- Booking service system
-- Reward/offers for customers
-- GDPR Disclaimer
-- FAQ Page
-- Blog
-- Cars for Sale Page
-- CAPTCHA feature on contact form
-- Customer database with service history
+- Contact Form & Review modal functionality.
+- COVID 19 Information - Provide information on how the company have adapted to the new Health & Safety Standards i.e the implementation of social distancing, santising and protecting 
+customers on the premises.
+- Booking service system - Allowing users to book a service through an online booking system platform
+- Reward/offers for customers - Providing a signup feature that will allow loyal returning customers to gain acces to exclusive discounts or offers on services, giving back to the customer.
+- GDPR Disclaimer - Implementing GDPR regulations when dealing with sensitive customer data and privacy.
+- FAQ Page - Including a FAQ section so users can easily find answers to commonly asked questions quickly and with ease saving them time.
+- Blog - An area to include some articles or information on common car issues or tips and tricks
+- Cars for Sale Page - Lomasney Motors sometimes have used cars for sale, developing a section for online perspective buyers
+- CAPTCHA feature on contact form - Allowing the business to protect against spam
+- Customer database with service history - This would link up with the rewards for loyalty program and the business would have a database of customer history for ease of access and a user could
+ also see their own car service history.
 
 ## **Technologies Used**
 ---
