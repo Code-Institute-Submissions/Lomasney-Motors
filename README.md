@@ -1,8 +1,9 @@
-# LOMASNEY MOTORS
-## Milestone 1 Project - User Centric Frontend Development
+# **LOMASNEY MOTORS**
+## **_Milestone 1 Project - User Centric Frontend Development_**
+
 ![Lomasney Motors Mockup for](wireframes/multi-device.png "Multi-device Mockup")
 
-## Overview
+## **Description**
 ---
 This is a fully responsive website I am developing for Lomasney Motors, a family run car service and repairs business based in Midleton, Co. Cork, Ireland.
 The focus of this website is to provide customers with information about the business and to develop an online presence for the company. In 
@@ -11,7 +12,7 @@ of the business, it is important to develop a positive online presense to retain
 scrolling website with 5 sections: About Us, Meet the Team, Services, Testimonials and a Contact section. This project will be on-going and will be updated 
 regularly and changes made to suit the needs and requirements of both the owner and the users.
 
-### The Business Objectives
+### **_The Business Objectives:_**
 1. To develop an online presence.
 2. Increase brand awareness.
 3. Expand the target audience reach.
@@ -19,57 +20,25 @@ regularly and changes made to suit the needs and requirements of both the owner 
 5. Provide easily accessible information to customers.
 6. To develop online communication with our customer base.
 
-### Customer Objectives
-1. To gain access to services information and pricing.
+### **_Customer Objectives:_**
+1. To gain access to services information
 2. To access business opening hours and contact details.
 3. To be able to get in touch with the business online.
 4. To see customer reviews of the business and services provided.
 5. Location information.
 6. Easily access information required.
 
-### Future goals
+### **_Future goals:_**
 * Ability to book a service online.
 * Offer rewards and promotions to loyal customers.
 
-## UX
+## **UX Design**
 ---
 This website is for customers, to provide up to date, relevant and easily available information about the business and the services it provides.
 The objective of this project is to develop a user-friendly platform that both new and existing customers can use for a range of purposes which were
 identified through research, from the perspective of the business and user perspective.
-### Strategy
 
-
-### Structure
-Through target audience research and discussions with Lomasney Motors, it was decided to create a one page scrolling website that incorporates 5 different sections
-with minimal text and vivid images. These sections were identified as the key pieces of information sought after by customers of the business and potential customers.
-
-### Skeleton
-#### Wireframe mockups
-- Home
-- About
-- The Team
-- Services
-- Testimonials
-- Contact Us
-
-### Surface 
-
-#### Colours
-The colour scheme chosen for this project was based around the existing logo colours used by the company.
-I used a mix of different shades of green, grey for the body and backgrounds. And I used a yellow colour 
-for the call to action buttons so they would be vibrant and stand out as intended to.
-
-#### Typography
-The fonts chosen for this project were Montserrat and Raleway. The Montserrat font was the closest font to the
-logo which the company already have in place so it was important to keep this element throughout the website.
-These fonts pair well together, are easy to read and give a professional look to the site.
-
-#### Images
-Most of the images were created solely for the purpose of this website. These were obtained from Bazar Productions 
-with some minor generic images taken from unsplash.com and pexel.com to fill in gaps where images were required for
-the services section.
-
-### User Stories
+### **_User Stories_**
 
 * As the owner of Lomasney Motors, I would like to develop a stronger online presence, so that I can expand my customer base while also sustaining open communication with my existing customers.
 
@@ -89,9 +58,56 @@ the services section.
 
 * As a potenial user I would like to be able to book in for a service online in advance to save time.
 
+### **_Strategy_**
+My goal for this project was to design a user friendly website focused on easily accessible key information for users and 
+communicate with the business online. For the business my goal was to create a online platform for the business to build brand 
+awareness and showcase their work. The design was intended to be easily to navigate, simple design and plenty of vivid imagery.
+
+### **_Scope_**
+The focus of the project, given the timeframe and my current skills, was to develop a one page scrolling website with 5 main sections
+that users could easily navigate and provide information that was concise and relevant, provide a means of online communication through 
+the use of a contact form and review modal,and a clear description of the services provided. It was important to include a brief background 
+on the company and team as it is a local business it is the personal service they offer that sets them apart from bigger companies.  
+
+### **_Structure_**
+The website is designed to entice the users through plenty of vivid images and short paprgraphs of concise, relevant information that
+do not overload the user with information. The services offered are displayed as images with large captions of the service provided.
+Call to action buttons are placed on 3 different sections to encourage the user to communicate if they wish to do so. The footer also 
+provides external links to the Facebook page, google maps for directions and a link to the company phone number. The layout is simple,
+and a fixed navigation bar allows the user to quickly navigate to any section no matter where they are on the page.
+
+### **_Skeleton_**
+It is a one-page scrolling website with 5 different sections:
+- Home Page
+- About Section
+- Meet the Team Section
+- Services Section
+- Testimonial Section
+- Contact Section
+
+#### **_Wireframe mockups_**
+- [Wireframes](wireframes/wireframes-alldevices.pdf)
 
 
-## Features
+### **_Surface_**
+
+#### **_Colours_**
+>The colour scheme chosen for this project was based around the existing logo colours used by the company.
+I used a mix of different shades of green and white for the body and backgrounds. And I used a yellow colour 
+for the call to action buttons so they would be vibrant and stand out as intended to.
+
+#### **_Typography_**
+>The fonts chosen for this project were Montserrat and Raleway. The Montserrat font was the closest font to the
+logo which the company already have in place so it was important to keep this element throughout the website.
+These fonts pair well together, are easy to read and give a professional look to the site.
+
+#### **_Images_**
+>Most of the images were created solely for the purpose of this website. These were obtained from Bazar Productions 
+with some minor generic images taken from [Unsplash](https://www.unsplash.com) and [Pexel](https://www.pexel.com) 
+where images were required for the services section.
+
+
+## **Features**
 ---
 The website was built as a one page scrolling website that includes 5 different sections of one page each
  - General (navbar, logo, footer, social links, directions link, opening hours)
@@ -102,9 +118,9 @@ The website was built as a one page scrolling website that includes 5 different 
  - Contact Us Section(contact form, opening hours, map)
 
  
-### Existing Features
+### **_Existing Features_**
 
-#### Navbar & footer
+#### **_Navbar & footer_**
  The Navbar and footer are both in a fixed position to make it easy for users to access the navigation elements of the
  website and always have constant accessibility to social, direction and phone links. The navbar consists of logo text 
  to the left and navigation links to the right, the navbar is responsive and it's menu collapses into a hamburger menu 
@@ -112,31 +128,31 @@ The website was built as a one page scrolling website that includes 5 different 
  The footer consists of opening hours and copyright information to the left and links to social media, telephone and 
  direction information on the right.changed the footer and header to "not fixed" to cut down on vertical space usage.
 
-#### Home Page
+#### **_Home Page_**
  The Hompage was designed to be a visual display with minimal text, it includes a hero image, a brief description highlighting 
  the main services the company provide which is jumbotron displayed over the hero image and a call to action button which provides
  a link to the contact form once clicked. The idea of the homepage is to visually entice the user while not bombarding them with an 
  overload of text to consume.
 
-#### About Page
+#### **_About Page_**
 The About page is set up as a two column grid display with the left side displaying three small paragraphs of text detailing a brief 
 history and background of the business and a full width image of the owner and company signage to the right. I decided to use this image 
 as it represents what the company is about, a family run local garage.
 
-#### Services Page
+#### **_Services Page_**
 The services page is a 3 column display of images with a text overlay decribing the services the company offer. There is an image to 
 represent each service with a total of 9 services and correpsonding images displayed. In mobile view this has been reduced to one column 
 with each service displayed as a block element, with one after the other.
 
-#### Testimonials Page
+#### **_Testimonials Page_**
 The testimonials page was designed using a Bootstrap carousel slider which runs automatically showcasing customer reviews. In larger screen sizes
 a call to action button with the caption 'Leave a Review' has been added which when clicked opens a modal dialog box for users to write a review and submit it.
 
-#### Contact Us Page 
+#### **_Contact Us Page_** 
 The contact us section is a two column page that includes a contact form on the left hand column and to the right I have included the business address, opening hours
 and a basic map image showing the location of Lomasney Motors.
 
-### Features Left to Implement
+### **_Features Left to Implement_**
 - COVID 19 Information - how the company have adapted to the new Health & Safety Standards
 - Booking service system
 - Reward/offers for customers
@@ -147,14 +163,14 @@ and a basic map image showing the location of Lomasney Motors.
 - CAPTCHA feature on contact form
 - Customer database with service history
 
-## Technologies Used
+## **Technologies Used**
 ---
-### Languages
+### **_Languages_**
 - HTML5
 - CSS3
 - JQuery - the project used this as a built in feature of Bootstrap, used for the modal feature for the testimonial section.
 
-### Integretions
+### **_Integretions_**
 - Bootstrap4 
   Used for the grid layout for the website
 - Font Awesome
@@ -162,18 +178,18 @@ and a basic map image showing the location of Lomasney Motors.
 - Google Fonts
   Used to select the font styles used on the website for the section heading and body.
 
-### Workspace
+### **_Workspace_**
 - GitHub
 - Gitpod
 - Git
 
-### Other
+### **_Other_**
 - Autoprefixer CSS
   An online tool used to parse the CSS and add vendor prefixes where required.
 - Tinyjpeg
   This was used to compress the images used on the website.
 
-## Testing
+## **Testing**
 ---
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -192,13 +208,13 @@ In addition, you should mention in this section how your project looks and works
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
-## Issues
+## **_Issues_**
 - Navbar background color
 - Navbar toggle menu collapsing
 - Carousel slides overlapping
 - Contact Image not fully covering section
 
-## Deployment
+## **Deployment**
 ---
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
@@ -210,7 +226,7 @@ In particular, you should provide all details of the differences between the dep
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
 
-## Credits
+## **Credits**
 ---
 - W3 Schools
 - Stackoverflow
@@ -219,15 +235,15 @@ In addition, if it is not obvious, you should also describe how to run your code
 - Cillian McCarthy - services content
 - Balsamiq wireframes
 
-### Content
+### **_Content_**
 - The text for the 'About Us', 'Meet the Team' and Services section were obtained from Dermot Lomasney, Cillian McCarthy, 
 the owner and employee at Lomasney Motors and some text was added by me from my knowledge of the business and the surrounding area of Midleton.
 The testimonials content was taken from the company Facebook review section and also reviews from Google.
 
-### Media
+### **_Media_**
 - The photos used in this site were obtained from Basil Alrawi, who I enlisted to take some quality photos for the website.
 
-## Acknowledgements
+## **Acknowledgements**
 ---
 - My inspiration for this project came from my Dad. He is the owner of Lomasney Motors since 1987 and the business has never had a website.
   He has many regular customers, however as society has changed alot in the last 30 years, Midleton has now a much bigger population and the
