@@ -225,54 +225,83 @@ Parse Error on items related to CSS Variable values. I asked my mentor if this w
 
 
 **Tests Carried Out**
-Contact Form Validity - required fields
-If you try to submit the form with only one of the fields complete and an error will occur
-and prompt you to populate all the other required fields before I can submit the form.
-The form cannot be submitted without the required fields populated.
-**Outcome:**
-Pass
 
-**Test**
-Contact Form Email Validity - email valid
-If you try to input a name into the email field instead of an email address.
-An error will occur and state this is not a valid email address.
+**User Story Tests**
+* _As the owner I would like to provide basic services information_
+_As a new user, I would like to know what services they offer_
+The website provides a section for the main services provided by the company, this will allow users to see the services on offer and also solve the
+company's request that users would be given information on the services they provide.
 
-**Test**
-Footer links - Directions & Facebook
-All links should open in a new tab as the have the attribute target="_blank"
-All links were tested and do open in a new tab anytime they are clicked.
+* _As a new user I would like to see customer reviews of the service_
+This objective was achieved by including a testimonial carousel slider showing customer reviews and thoughts on the service they received. It also allows the user 
+to create their own review if they wish to do so.
 
-**Test**
-Footer Link - Phone number
-This link should prompt the user to make a call to the phone number provided.
-The test carried out was successful and the link will prompt the user to make a call if they wish.
+* _As a new user, I would like to see where they are located as I am new to the area and need to have this service within close proximity to where I live._
+This objective was achieved by including a simple style map on the contact section and also providing a link in the footer to google maps giving an exact 
+location of Lomasney Motors that users can open to get directions to the premises. This link opens in a new tab so the user will not have to use the back buttonon the web browser.
 
-**Test**
-Navigation links
+* _As a potential user, I would like to be able to contact the business online as I have a very busy schedule_
+The website includes a contact form in the contact section that allows users to communicate via email with the company. I have also placed a call to action button on the homepage
+'Request a Quote' that links directly to the contact section. The navigation bar allows includes a link to this section and once clicked will scroll to the contact form available.
+
+**Navigation Bar**
+- Navigation links
 All navigation links when clicked should scroll directly to the section targeted.
 The test was successful and all links are working correctly and scroll to the appropriate section.
 
-**Test**
-Navigation Logo link
+- Navigation Logo link
 This link should direct the user back to the homepage.
 As the navigation bar is fixed the user should be able to retreat to the homepage at any point.
 The test was successful and the navigation logo reverts the user to the homepage when it is clicked.
 
-**Test**
-Hamburger menu closing after link has been selected.
+- Hamburger menu closing after link has been selected.
 The hamburger menu on mobile and tablet devices should automatically close once the link chosen has been selected.
 After using the code snippet found to solve this problem on StackOverflow, the test result showed that once a 
 menu link has been selected the hamburger menu will close automatically on selection.
 
-**Test**
+**Homepage**
+- Request a Quote: Call to action
+Check to see if the call to action button 'Request a Quote' links to the contact secton when clicked.
+The button takes the user directly to the contact section as intended, this test was a success.
+
+**About Section**
+**Meet the Team Section**
+**Services Section**
+**Testimonials Section**
+**Contact Section**
+- Contact Form Validity - required fields
+If you try to submit the form with only one of the fields complete and an error will occur
+and prompt you to populate all the other required fields before I can submit the form.
+The form cannot be submitted without the required fields populated.
+
+- Contact Form Email Validity - email valid
+If you try to input a name into the email field instead of an email address.
+An error will occur and state this is not a valid email address.
+
+**Footer**
+- Footer links - Directions & Facebook
+All links should open in a new tab as the have the attribute target="_blank"
+All links were tested and do open in a new tab anytime they are clicked.
+
+- Footer Link - Phone number
+This link should prompt the user to make a call to the phone number provided.
+The test carried out was successful and the link will prompt the user to make a call if they wish.
+
+
+
+
+
+
+
+
+
+
+**General**
 Check alt text appears for all images
 Hover over images to see if there is clear alt text visible.
 All images were tested and passed
 
-**Test**
-Request a Quote: Call to action
-Check to see if the call to action button 'Request a Quote' links to the contact secton when clicked.
-The button takes the user directly to the contact section as intended, this test was a success.
+
 
 **Test**
 Modal Dialog Box: 'Leave a Review'
