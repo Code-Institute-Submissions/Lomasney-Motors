@@ -1,5 +1,6 @@
 # **LOMASNEY MOTORS**
 ## **_Milestone 1 Project - User Centric Frontend Development_**
+You can check out the site [here](https://elomasney.github.io/Lomasney-Motors-1.0/)
 
 ![Lomasney Motors Mockup for](wireframes/multi-device.png "Multi-device Mockup")
 
@@ -230,8 +231,8 @@ The project used this as a built in feature of Bootstrap, used for the modal fea
 - W3C HTML Markup Validator
 
 - W3C CSS Validator#
-Parse Error on items related to CSS Variable values. I asked my mentor if this was an issue and after some research found that this was not an issue.
-
+Parse Error on 32 items related to CSS Variable values. I asked my mentor if this was an issue and after some research found that this was not an issue.
+Unknown vendor extension errors on 41 items, I ask my mentor about this an he advised me that it is not an issue.
 
 **Tests Carried Out**
 
