@@ -87,17 +87,26 @@ It is a one-page scrolling website with 5 different sections:
 
 #### **_Wireframe mockups_**
 - [Wireframes](wireframes/wireframes-alldevices.pdf)
-
+The final version of this website differs slightly from the wireframes in terms of some styling and layout elements.
+- I decided to included a jumbotron on the landing page instead of including a 'Our Promise' Section as I felt it was 
+more appealing to the user.
+- The services section had initially been designed as an icon with a description of the service underneath. This changed
+to having images displayed side by side and just a caption of the service name underneath each. I felt that a visual display of
+the services was far more compelling to a user than an overload of text explaining each one.
+- The Team section also differs slightly in layout as initially I had the photo to the left of the card text but once I had previewed
+this while developing the website I decide to change this layout to make the images appears at the top of the card text as it looked 
+more visually appealing.
 
 ### **_Surface_**
 
 #### **_Colours_**
 >The colour scheme chosen for this project was based around the existing logo colours used by the company.
-I used a mix of different shades of green and white for the body and backgrounds. And I used a yellow colour 
-for the call to action buttons so they would be vibrant and stand out as intended to.
+I used a mix of different shades of green and white for the body and backgrounds making sure to keep these colours muted so as not to distract from
+any content or imagery. And I used a yellow colour for the call to action buttons so they would be vibrant and contrast with the green elements and the
+yellow worked well with the green colours I had already chosen to use .
 
 #### **_Typography_**
->The fonts chosen for this project were Montserrat and Raleway. The Montserrat font was the closest font to the
+>The fonts chosen for this project were Lato and Montserrat. The Lato font was the closest font to the
 logo which the company already have in place so it was important to keep this element throughout the website.
 These fonts pair well together, are easy to read and give a professional look to the site.
 
@@ -249,6 +258,10 @@ The website includes a contact form in the contact section that allows users to 
 All navigation links when clicked should scroll directly to the section targeted.
 The test was successful and all links are working correctly and scroll to the appropriate section.
 
+- _Navigation bar responsiveness_
+Verify responsiveness of navigation bar using Chrome DevTools to check if it working across all devices.
+Navigation bar was responsive across all device and collapsed into hamburger menu in tablet and mobile devices.
+
 - Navigation Logo link
 This link should direct the user back to the homepage.
 As the navigation bar is fixed the user should be able to retreat to the homepage at any point.
@@ -256,30 +269,66 @@ The test was successful and the navigation logo reverts the user to the homepage
 
 - Hamburger menu closing after link has been selected.
 The hamburger menu on mobile and tablet devices should automatically close once the link chosen has been selected.
-After using the code snippet found to solve this problem on StackOverflow, the test result showed that once a 
-menu link has been selected the hamburger menu will close automatically on selection.
+The first test I discovered an issue where the hamburger menu was opening but not closing once link was seclected.
+After using the code snippet found to solve this problem on [StackOverflow](https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked),
+by Orel Eliyahu. I ran the test again after using the code snippet and  the test result showed that once a menu link has been selected the hamburger menu will close automatically on selection.
 
 **Homepage**
+- _Hero Image Responsiveness_
+The hero image and jumbotron should be responsive and scale down to fit all devices.
+I ran a test for this using DevTools on Google Chrome to show how the site looks on different devices and also
+expanding and reducing screen size to make sure the image fits the full width of the screen on all devices.
+The image and jumbotron are responsive on all devices.
+
 - Request a Quote: Call to action
 Check to see if the call to action button 'Request a Quote' links to the contact secton when clicked.
 The button takes the user directly to the contact section as intended, this test was a success.
 
 **About Section**
+- _Responsiveness of image_
+The about image should be responsive and appear on right hand side of about text in larger screens and
+appear underneathabout text in both tablet and mobile devices. This test was successful and the image is responsive.
+
 **Meet the Team Section**
+- _Card Responsiveness_
+In this section the cards should align side by side in larger screens and tablet devices and on mobiledevices should 
+align one after the other in a block element format. This test was succesful and the card are responsive and align as expected.
+
 **Services Section**
+- _Image Responsiveness_
+The services section should have 3 columns with the images aligned side by side in larger screens and tablet devices and
+on mobile devices should align in 1 column block elements displayed one after the other. This test was successful and images responded 
+as desired.
+
 **Testimonials Section**
+- _Modal Dialog Box: 'Leave a Review'_
+The button in the testimonials section 'Leave a Review' should open a modal dialog box for the user once clicked
+to allow the user to fill in a review form to submit.
+The button does as intended and no issues were found.
+
+- _Radio Button Functionality on modal dialog box_
+Tested the radio buttons to make sure only one option could be selected, no issues were found,
+buttons worked as expected.
+
 **Contact Section**
-- Contact Form Validity - required fields
+- _Contact Form Validity - required fields_
 If you try to submit the form with only one of the fields complete and an error will occur
 and prompt you to populate all the other required fields before I can submit the form.
 The form cannot be submitted without the required fields populated.
 
-- Contact Form Email Validity - email valid
+- _Contact Form Email Validity - email valid_
 If you try to input a name into the email field instead of an email address.
 An error will occur and state this is not a valid email address.
 
+- _Background Image Cover_
+I had chosen to insert a background image for the contact section that should cover the entire section, however
+once I tested the background image once content had been added and discovered an issue, it was only covering half 
+of the container. I did some research and found a CSS code snippet on [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/)
+and in doing so was able to solve the issue by adjusting the width and height. I ran the test again and the background image
+now covers the full contact section.
+
 **Footer**
-- Footer links - Directions & Facebook
+- _Footer links - Directions & Facebook_
 All links should open in a new tab as the have the attribute target="_blank"
 All links were tested and do open in a new tab anytime they are clicked.
 
@@ -287,65 +336,30 @@ All links were tested and do open in a new tab anytime they are clicked.
 This link should prompt the user to make a call to the phone number provided.
 The test carried out was successful and the link will prompt the user to make a call if they wish.
 
-
-
-
-
-
-
-
-
-
 **General**
-Check alt text appears for all images
+- _Check alt text appears for all images_
 Hover over images to see if there is clear alt text visible.
 All images were tested and passed
 
-
-
-**Test**
-Modal Dialog Box: 'Leave a Review'
-The button in the testimonials section 'Leave a Review' should open a modal dialog box for the user once clicked
-to allow the user to fill in a review form to submit.
-The button does as intended and no issues were found.
-
-**Test**
-Button Hover Function: darker colour
+- _Button Hover Function: darker colour_
 When any of the buttons on the site including the 'Request a Quote' on the homepage, 'Leave a Review' on the testimonals section,
 'Send' button on the contact form should all change to a deeper colour once hovered over.
 All buttons function as expected and no issues were found.
 
-**Test**
-Navigation bar responsiveness
-Test responsiveness of navigation bar using  Chrome DevTools to check if it working across all devices.
-Navigation bar was responsive across all device and collapsed into hamburger menu in tablet and mobile devices.
-
-**Test**
-Radio Button Functionality on modal dialog box
-Tested the radio buttons to make sure only one option could be selected, no issues were found,
-buttons worked as expected.
-
-**Test**
-Conducted spell check on README file and text used in 'About'section and 'Meet the Team' sections,
+- Conducted spell check on README file and text used in 'About'section and 'Meet the Team' sections,
 all spelling errors were corrected.
 
-**Other Tests**
-Ran code through Autoprefixer and copied code back into css file.
-Ran code on Mobile Friendly Test page and passed all tests. The site is mobile friendly as expected.
+- Ran code through Autoprefixer and copied code back into css file.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+- Ran code on Mobile Friendly Test page and passed all tests. The site is mobile friendly as expected.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+- I also asked friends and family members to test the website on many different devices including large screen laptops,
+Iphone, android, android table and Ipad and across a variety of browsers Internet Explorer, Google Chrome, and Firefox.
 
+## **Version Control**
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-## **_Issues_**
-- Navbar toggle menu collapsing
-- Carousel slides overlapping https://stackoverflow.com/questions/46147695/bootstrap-carousel-is-displaying-all-images-on-top-of-each-other
+- I used Gitpod & GitHub for version control. 
+- There is only one branch used - the master branch
 
 ## **Deployment**
 ---
@@ -394,6 +408,18 @@ The testimonials content was taken from the company Facebook review section and 
 
 ### **_Media_**
 - The photos used in this site were obtained from Basil Alrawi of [Bazar Productions](https://www.bazarproductions.com/), the photographer of the images taken for the website.
+
+
+## **Resources**
+- Code Institute course content
+- Slack Community
+- Bootstrap Documentation
+- WW3 Schools 
+- Stackoverflow
+- YouTube
+- Balsamiq Wireframes
+- CSS Tricks
+- Bazar Productions - images
 
 ## **Acknowledgements**
 ---
