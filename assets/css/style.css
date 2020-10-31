@@ -548,8 +548,8 @@ footer {
 }
 
 .general-sub {
-    font-family: "Montserrat",sans-serif;
-    font-weight: 800;
+    font-family: "Lato",sans-serif;
+    font-weight: 900;
     font-size: 1rem;
     color: #113822;
     padding-top: 10px;
@@ -605,6 +605,12 @@ footer {
 }
 
 /****Media Queries****/
+/****Phones***/
+@media (min-width: 576px){
+.jumbotron {
+     padding:0;
+}
+}
 
 /* Medium devices (tablets, 768px and up) */
 
