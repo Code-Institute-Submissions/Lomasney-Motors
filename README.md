@@ -88,7 +88,7 @@ It is a one-page scrolling website with 5 different sections:
 
 #### **_Wireframe mockups_**
 - [Wireframes](wireframes/wireframes-alldevices.pdf)
-The final version of this website differs slightly from the wireframes in terms of some styling and layout elements.
+- The final version of this website differs slightly from the wireframes in terms of some styling and layout elements.
 - I decided to included a jumbotron on the landing page instead of including a 'Our Promise' Section as I felt it was 
 more appealing to the user.
 - The services section had initially been designed as an icon with a description of the service underneath. This changed
