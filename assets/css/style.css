@@ -311,8 +311,8 @@ nav.navbar.navbar-expand-lg.navbar-light.fixed-top{
 /****Service Section*****/
 
 .service-container {
-    background:-webkit-gradient(linear,left top, left bottom,from(rgba(232, 242, 230, 0.849)),to(rgba(3, 55, 23, 0.6)));
     background:-o-linear-gradient(rgba(232, 242, 230, 0.849),rgba(3, 55, 23, 0.6));
+    background: -webkit-gradient (linear,left top, left bottom,from(rgba(232, 242, 230, 0.849)),to(rgba(3, 55, 23, 0.6)));
     background: linear-gradient(rgba(232, 242, 230, 0.849),rgba(3, 55, 23, 0.6));
     -webkit-box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
     box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
@@ -366,8 +366,8 @@ nav.navbar.navbar-expand-lg.navbar-light.fixed-top{
 .testimonial-container {
     width: 100%;
     height: auto;
-    background:-webkit-gradient(linear,left top, left bottom,from(rgba(232, 242, 230, 0.849)),to(rgba(3, 55, 23, 0.6)));
     background:-o-linear-gradient(rgba(232, 242, 230, 0.849),rgba(3, 55, 23, 0.6));
+    background: -webkit-gradient (linear,left top, left bottom,from(rgba(232, 242, 230, 0.849)),to(rgba(3, 55, 23, 0.6)));
     background: linear-gradient(rgba(232, 242, 230, 0.849),rgba(3, 55, 23, 0.6));
     -webkit-box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
     box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
@@ -399,7 +399,10 @@ nav.navbar.navbar-expand-lg.navbar-light.fixed-top{
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transition: -webkit-transform .6s ease-in-out;
+    -webkit-transition: -webkit-transform .6s ease-in-out;
+    -o-transition: transform .6s ease-in-out;
     transition: transform .6s ease-in-out;
+    transition: transform .6s ease-in-out, -webkit-transform .6s ease-in-out;
     transition: transform .6s ease-in-out,-webkit-transform .6s ease-in-out;
 }
 
