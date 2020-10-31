@@ -1,6 +1,6 @@
 # **LOMASNEY MOTORS**
 ## **_Milestone 1 Project - User Centric Frontend Development_**
-You can check out the site [here](https://elomasney.github.io/Lomasney-Motors-1.0/)
+You can check out Lomasney Motors [here](https://elomasney.github.io/Lomasney-Motors-1.0/)
 
 ![Lomasney Motors Mockup for](wireframes/multi-device.png "Multi-device Mockup")
 
