@@ -2,14 +2,14 @@
 ## **_Milestone 1 Project - User Centric Frontend Development_**
 You can check out Lomasney Motors [here](https://elomasney.github.io/Lomasney-Motors-1.0/)
 
-![Lomasney Motors Mockup for](wireframes/multi-device.png "Multi-device Mockup")
+![Lomasney Motors Mock Up for](wireframes/multi-device.png "Multi-device Mock Up")
 
 ## **Description**
 ---
 This is a fully responsive website I am developing for Lomasney Motors, a family run car service and repairs business based in Midleton, Co. Cork, Ireland.
 The focus of this website is to provide customers with information about the business and to develop an online presence for the company. In 
-this current climate with the challenges facing all businesses with COVID-19, it is vital stay connected with customers and is the key to securing the future 
-of the business, it is important to develop a positive online presense to retain existing customers and also to attract new customers. The website is a single page 
+this current climate, with COVID-19, all businesses are facing challenges. It is vital stay connected with customers and is the key to securing the future 
+of the business. It is important to develop a positive online presence to retain existing customers and also to attract new customers. The website is a single page 
 scrolling website with 5 sections: About Us, Meet the Team, Services, Testimonials and a Contact section. This project will be on-going and will be updated 
 regularly and changes made to suit the needs and requirements of both the owner and the users.
 
@@ -55,23 +55,23 @@ identified through research, from the perspective of the business and user persp
 
 * As a new user, I would like to see where they are located as I am new to the area and need to have this service within close proximity to where I live.
 
-* As a potential user, I would like to be able to contact the business online as I have a very busy schedule and do not have alot of free time to call.
+* As a potential user, I would like to be able to contact the business online as I have a very busy schedule and do not have a lot of free time to call.
 
-* As a potenial user I would like to be able to book in for a service online in advance to save time.
+* As a potential user I would like to be able to book in for a service online in advance to save time.
 
 ### **_Strategy_**
-My goal for this project was to design a user friendly website focused on easily accessible key information for users and 
-communicate with the business online. For the business my goal was to create a online platform for the business to build brand 
+My goal for this project was to design a user-friendly website focused on easily accessible key information for users and 
+communicate with the business online. My goal was to create aN online platform for the business to build brand 
 awareness and showcase their work. The design was intended to be easily to navigate, simple design and plenty of vivid imagery.
 
 ### **_Scope_**
-The focus of the project, given the timeframe and my current skills, was to develop a one page scrolling website with 5 main sections
+The focus of the project, given the time frame and my current skills, was to develop a one page scrolling website with 5 main sections
 that users could easily navigate and provide information that was concise and relevant, provide a means of online communication through 
-the use of a contact form and review modal,and a clear description of the services provided. It was important to include a brief background 
+the use of a contact form and review modal, and a clear description of the services provided. It was important to include a brief background 
 on the company and team as it is a local business it is the personal service they offer that sets them apart from bigger companies.  
 
 ### **_Structure_**
-The website is designed to entice the users through plenty of vivid images and short paprgraphs of concise, relevant information that
+The website is designed to entice the users through plenty of vivid images and short paragraphs of concise, relevant information that
 do not overload the user with information. The services offered are displayed as images with large captions of the service provided.
 Call to action buttons are placed on 3 different sections to encourage the user to communicate if they wish to do so. The footer also 
 provides external links to the Facebook page, google maps for directions and a link to the company phone number. The layout is simple,
@@ -86,24 +86,24 @@ It is a one-page scrolling website with 5 different sections:
 - Testimonial Section
 - Contact Section
 
-#### **_Wireframe mockups_**
+#### **_Wireframe Mock Ups_**
 - [Wireframes](wireframes/wireframes-alldevices.pdf)
 - The final version of this website differs slightly from the wireframes in terms of some styling and layout elements.
-- I decided to included a jumbotron on the landing page instead of including a 'Our Promise' Section as I felt it was 
-more appealing to the user.
+- I decided to use a jumbotron on the landing page instead of including a 'Our Promise' Section as I felt it was 
+  more appealing to the user.
 - The services section had initially been designed as an icon with a description of the service underneath. This changed
-to having images displayed side by side and just a caption of the service name underneath each. I felt that a visual display of
-the services was far more compelling to a user than an overload of text explaining each one.
+  to having images displayed side by side and just a caption of the service name underneath each. I felt that a visual display of
+  the services was far more compelling to a user than an overload of text explaining each one.
 - The Team section also differs slightly in layout as initially I had the photo to the left of the card text but once I had previewed
-this while developing the website I decide to change this layout to make the images appears at the top of the card text as it looked 
-more visually appealing.
+  this while developing the website I decide to change this layout to make the images appears at the top of the card text as it looked 
+  more visually appealing.
 
 ### **_Surface_**
 
 #### **_Colours_**
 >The colour scheme chosen for this project was based around the existing logo colours used by the company.
 I used a mix of different shades of green and white for the body and backgrounds making sure to keep these colours muted so as not to distract from
-any content or imagery. And I used a yellow colour for the call to action buttons so they would be vibrant and contrast with the green elements and the
+any content or imagery. And I used a yellow colour for the call to action buttons, so they would be vibrant and contrast with the green elements and the
 yellow worked well with the green colours I had already chosen to use .
 
 #### **_Typography_**
@@ -121,19 +121,19 @@ where images were required for the services section.
 ---
 The website was built as a one page scrolling website that includes 5 different sections.
 
-### **Navbar & footer**
+### **Navigation Bar & Footer**
  The **navigation bar** is in a fixed position to make it easy for users to access the navigation elements of the website and allow them to 
  move from section to section as they wish. The navbar consists of **logo text** to the left which **acts as a link to the homepage** and 
- is always visible on screen. The **navigation links** are lcoated to the far right, and provide scroll links to each section. The navbar 
+ is always visible on screen. The **navigation links** are located to the far right, and provide scroll links to each section. The navbar 
  is responsive and the navigation menu collapses into a **hamburger menu** for both tablet and mobile devices.
  The **footer** includes **opening hours** details and **copyright information** to the left and links to **social media**, **telephone** and **direction** 
  information on the right. I initially had both the navbar and footer fixed however  I changed this design to the footer to cut down on 
  vertical space usage as it was obstructing content.
 
 ### **Home Page**
- The Hompage was designed to be a visual display with minimal text, it includes a **hero image**, a brief description highlighting 
+ The Home page was designed to be a visual display with minimal text, it includes a **hero image**, a brief description highlighting 
  the main services the company provide which is jumbotron displayed over the hero image and a **call to action button** which provides
- a link to the contact form once clicked. The idea of the homepage is to visually entice the user while not bombarding them with an 
+ a link to the contact form once clicked. The idea of the home page is to visually entice the user while not bombarding them with an 
  overload of text to consume.
 
 ### **About Page**
@@ -143,7 +143,7 @@ as it represents what the company is about, a family run local garage and enhanc
 
 ### **Services Page**
 The services page is a 3 column display of **images** with a text underneath stating the services the company offer. There is an image to 
-represent each service with a total of 9 services and correpsonding images displayed. In mobile view this has been reduced to one column 
+represent each service with a total of 9 services and corresponding images displayed. In mobile view this has been reduced to one column 
 with each service displayed as a block element, with one after the other.
 
 ### **Testimonials Page**
@@ -152,7 +152,7 @@ a **call to action** button with the caption 'Leave a Review' has been added whi
 give it a star rating and submit it.
 
 ### **Contact Us Page** 
-The contact us section is a two column page that includes a **contact form** on the left hand column and to the right I have included the business address, opening hours
+The contact us section is a two column page that includes a **contact form** on the left-hand column and to the right I have included the business address, opening hours
 and a basic **map** image showing the location of Lomasney Motors.
 
 ### **_Existing Features_**
@@ -168,7 +168,7 @@ and a basic **map** image showing the location of Lomasney Motors.
  that states 'Request a Quote' which directs the user to the contact section once clicked.
 
  **_About Section_**
- - The about section is designed as a two column container with section header and three small parapgraphs of text about the company to the left and on the right
+ - The about section is designed as a two column container with section header and three small paragraphs of text about the company to the left and on the right
  column there is an full width image of the company owner Dermot Lomasney.
 
  **_Services Section_**
@@ -186,10 +186,10 @@ and a basic **map** image showing the location of Lomasney Motors.
 ### **_Features Left to Implement_**
 - Contact Form & Review modal functionality.
 - COVID 19 Information - Provide information on how the company have adapted to the new Health & Safety Standards i.e the implementation of social distancing, santising and protecting 
-customers on the premises.
+  customers on the premises.
 - Booking service system - Allowing users to book a service through an online booking system platform
-- Reward/offers for customers - Providing a signup feature that will allow loyal returning customers to gain acces to exclusive discounts or offers on services, giving back to the customer.
-- GDPR Disclaimer - Implementing GDPR regulations when dealing with sensitive customer data and privacy.
+- Reward/offers for customers - Providing a sign-up feature that will allow loyal returning customers to gain access to exclusive discounts or offers on services, giving back to the customer.
+- GDPR Compliance - Implementing GDPR regulations when dealing with sensitive customer data and privacy.
 - FAQ Page - Including a FAQ section so users can easily find answers to commonly asked questions quickly and with ease saving them time.
 - Blog - An area to include some articles or information on common car issues or tips and tricks
 - Cars for Sale Page - Lomasney Motors sometimes have used cars for sale, developing a section for online perspective buyers
@@ -205,7 +205,7 @@ customers on the premises.
 - **JQuery:** - 
 The project used this as a built in feature of Bootstrap, used for the modal feature for the testimonial section.
 
-### **_Integretions_**
+### **_Integretion_**
 - **Bootstrap4:**
   Used for the grid layout for the website
 - **Font Awesome:**
@@ -232,7 +232,7 @@ The project used this as a built in feature of Bootstrap, used for the modal fea
 
 - W3C CSS Validator#
 Parse Error on 32 items related to CSS Variable values. I asked my mentor if this was an issue and after some research found that this was not an issue.
-Unknown vendor extension errors on 41 items, I ask my mentor about this an he advised me that it is not an issue.
+Unknown vendor extension errors on 41 items, I ask my mentor about this and he advised me that it is not an issue.
 
 **Tests Carried Out**
 
@@ -246,9 +246,9 @@ company's request that users would be given information on the services they pro
 This objective was achieved by including a testimonial carousel slider showing customer reviews and thoughts on the service they received. It also allows the user 
 to create their own review if they wish to do so.
 
-* _As a new user, I would like to see where they are located as I am new to the area and need to have this service within close proximity to where I live._
+* _As a new user, I would like to see where they are located as I am new to the area and need to have this service close to where I live._
 This objective was achieved by including a simple style map on the contact section and also providing a link in the footer to google maps giving an exact 
-location of Lomasney Motors that users can open to get directions to the premises. This link opens in a new tab so the user will not have to use the back buttonon the web browser.
+location of Lomasney Motors that users can open to get directions to the premises. This link opens in a new tab so the user will not have to use the back button on the web browser.
 
 * _As a potential user, I would like to be able to contact the business online as I have a very busy schedule_
 The website includes a contact form in the contact section that allows users to communicate via email with the company. I have also placed a call to action button on the homepage
@@ -260,7 +260,7 @@ All navigation links when clicked should scroll directly to the section targeted
 The test was successful and all links are working correctly and scroll to the appropriate section.
 
 - _Navigation bar responsiveness_
-Verify responsiveness of navigation bar using Chrome DevTools to check if it working across all devices.
+Verify responsiveness of navigation bar using Chrome DevTools to check if it worked across all devices.
 Navigation bar was responsive across all device and collapsed into hamburger menu in tablet and mobile devices.
 
 - Navigation Logo link
@@ -270,7 +270,7 @@ The test was successful and the navigation logo reverts the user to the homepage
 
 - Hamburger menu closing after link has been selected.
 The hamburger menu on mobile and tablet devices should automatically close once the link chosen has been selected.
-The first test I discovered an issue where the hamburger menu was opening but not closing once link was seclected.
+The first test I discovered an issue where the hamburger menu was opening but not closing once link was selected.
 After using the code snippet found to solve this problem on [StackOverflow](https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked),
 by Orel Eliyahu. I ran the test again after using the code snippet and  the test result showed that once a menu link has been selected the hamburger menu will close automatically on selection.
 
@@ -282,17 +282,17 @@ expanding and reducing screen size to make sure the image fits the full width of
 The image and jumbotron are responsive on all devices.
 
 - Request a Quote: Call to action
-Check to see if the call to action button 'Request a Quote' links to the contact secton when clicked.
+Check to see if the call to action button 'Request a Quote' links to the contact section when clicked.
 The button takes the user directly to the contact section as intended, this test was a success.
 
 **About Section**
 - _Responsiveness of image_
-The about image should be responsive and appear on right hand side of about text in larger screens and
-appear underneathabout text in both tablet and mobile devices. This test was successful and the image is responsive.
+The about image should be responsive and appear on right-hand side of about text in larger screens and
+appear underneath about text in both tablet and mobile devices. This test was successful and the image is responsive.
 
 **Meet the Team Section**
 - _Card Responsiveness_
-In this section the cards should align side by side in larger screens and tablet devices and on mobiledevices should 
+In this section the cards should align side by side in larger screens and tablet devices and on mobile devices should 
 align one after the other in a block element format. This test was succesful and the card are responsive and align as expected.
 
 **Services Section**
@@ -340,14 +340,14 @@ The test carried out was successful and the link will prompt the user to make a 
 **General**
 - _Check alt text appears for all images_
 Hover over images to see if there is clear alt text visible.
-All images were tested and passed
+All images were tested and alt text appears on images.
 
 - _Button Hover Function: darker colour_
-When any of the buttons on the site including the 'Request a Quote' on the homepage, 'Leave a Review' on the testimonals section,
+When any of the buttons on the site including the 'Request a Quote' on the homepage, 'Leave a Review' on the testimonials section,
 'Send' button on the contact form should all change to a deeper colour once hovered over.
 All buttons function as expected and no issues were found.
 
-- Conducted spell check on README file and text used in 'About'section and 'Meet the Team' sections,
+- Conducted spell check on README file and text used in 'About' section and 'Meet the Team' sections,
 all spelling errors were corrected.
 
 - Ran code through Autoprefixer and copied code back into css file.
@@ -364,7 +364,7 @@ Iphone, android, android table and Ipad and across a variety of browsers Interne
 
 ## **Deployment**
 ---
-This project was developed using Gitpod IDE, then pushed to GitHub, where the [respository](https://github.com/elomasney/Lomasney-Motors-1.0) is stored.
+This project was developed using Gitpod IDE, then pushed to GitHub, where the [repository](https://github.com/elomasney/Lomasney-Motors-1.0) is stored.
 
 **_Project Deployment_**
 
@@ -372,7 +372,7 @@ The following steps outline how the project was deployed to GitHub pages:
 
 1. Logged on to GitHub
 2. Opened the repository **Lomasney-Motors-1.0**
-3. Clicked on the **settings** tab on the right hand side of menu.
+3. Clicked on the **settings** tab on the right-hand side of menu.
 4. Scrolled down the page until I reached the **GitHub Pages** section.
 5. Under **'source'** I selected the branch drop-down menu.
 6. I selected the **'Master'** branch and clicked the **'Save'** button.
@@ -395,7 +395,7 @@ HTML code was taken from WW3 Schools for aligning images next to each other for 
 HTML code was taken from StackOverflow to solve an issue with the hamburger menu not closing on clicking a link
 the navbar was remaining open. Code taken from [Orel Eliyahu](https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked)
 HTML code used for radio buttons in modal and edited from [Stack Overflow](https://stackoverflow.com/questions/27870042/bootstrap-input-dialog-with-radio-buttons)
-- **CSSTricks:**
+- **CSS Tricks:**
 CSS code snippet for background image for contact section from [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/)
 - **Bootstrap:**
 HTML Code for navbar, card deck, carousel slider and contact form were taken from [Bootstrap Documentation](https://getbootstrap.com/docs/4.1/getting-started/introduction/) and edited
@@ -405,10 +405,10 @@ HTML code for modal dialog box taken from [MDBootstrap](https://mdbootstrap.com/
 ### **_Content_**
 - The text for the 'About Us', 'Meet the Team' and Services section were obtained from Dermot Lomasney, Cillian McCarthy, 
 the owner and employee at Lomasney Motors and some text was added by me from my knowledge of the business and the surrounding area of Midleton.
-The testimonials content was taken from the company Facebook review section and also reviews from Google.
+The testimonials content was taken from the company Facebook review section and also reviews from Google and these were anonymised.
 
 ### **_Media_**
-- The photos used in this site were obtained from Basil Alrawi of [Bazar Productions](https://www.bazarproductions.com/), the photographer of the images taken for the website.
+- The photos used in this site were obtained from Basil Al-Rawi of [Bazar Productions](https://www.bazarproductions.com/), the photographer of the images taken for the website.
 
 
 ## **Resources**
@@ -424,10 +424,10 @@ The testimonials content was taken from the company Facebook review section and 
 
 ## **Acknowledgements**
 ---
-- My inspiration for this project came from my Dad. He is the owner of Lomasney Motors since 1987 and the business has never had a website, 
+- My inspiration for this project came from my Dad. He set up and runs Lomasney Motors and the business has never had a website, 
   so I thought it would be a good idea to put my skills to some real life use and build a simple yet effective website that will allow the 
   business to create a stronger online presence, expand its customer base and showcase what the services they offer.
 
 - I would like to thank my mentor Brian Macaria for all his help and support throughout this project.
 
-- I would also like to thank Basil Alrawi for the fantastic images he produced for this website.
+- I would also like to thank Basil Al-Rawi for the fantastic images he produced for this website.
