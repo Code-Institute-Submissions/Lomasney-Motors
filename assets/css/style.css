@@ -585,9 +585,9 @@ footer {
 .contact-links li a i {
     width: 35px;
     height: 35px;
-    padding: 10px;
+    padding: 8px;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 1.1rem;
     line-height: 20px;
     text-align: center;
     color: #fafafa;
