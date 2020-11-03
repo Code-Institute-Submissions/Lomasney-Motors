@@ -80,7 +80,7 @@ nav.navbar.navbar-expand-lg.navbar-light.fixed-top{
 #navbarLogo a {
     color: #113822;
     font-family: "Lato",sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     padding-top:10px;
     padding-bottom: 10px;
     padding-left: 10px;
@@ -608,7 +608,29 @@ footer {
 }
 
 /****Media Queries****/
-/****Phones***/
+
+/****Smaller Phones***/
+
+@media (max-width:360px){
+#navbarLogo a {
+    font-size:1.1rem;
+}
+
+.btn-warning{
+    font-size: small;
+}
+
+.footer-icons{
+    text-align: center;
+}
+
+.footer-hours{
+    text-align: center;
+}
+}
+
+/**Phones**/
+
 @media (min-width: 576px){
 .jumbotron {
      padding:0;
@@ -659,3 +681,4 @@ form{
 }
 
 }
+
