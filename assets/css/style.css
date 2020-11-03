@@ -620,16 +620,16 @@ footer {
      padding:0;
 }
 
-.btn-warning{
-    font-size: small;
-}
-
 .footer-icons{
     text-align: center;
 }
 
 .footer-hours{
     text-align: center;
+}
+
+.btn-warning{
+    font-size: 1rem;
 }
 }
 
@@ -648,6 +648,10 @@ footer {
 
 .footer-icons {
      text-align: right;
+ }
+
+ .btn-warning{
+     font-size: 1.25rem;
  }
 }
 
