@@ -653,6 +653,14 @@ footer {
     font-size:1.4rem;
 }
 
+.about-us-box-text h2,
+.team-heading,
+.service-heading,
+.test-header,
+.contact-heading {
+    letter-spacing: 1px;
+}
+
 .company-info img {
     width: 45vw;
     height: auto;
