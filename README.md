@@ -228,7 +228,11 @@ The project used this as a built in feature of Bootstrap, used for the modal fea
 ## **Testing**
 ---
 **Validation**
-- W3C HTML Markup Validator
+- W3C HTML Markup Validator 
+When I first ran this validation test there was an issue with the label for the radio buttons on the modal in the testimonials section, 
+I did some research to solve this issue and found a solution on [StackOverflow](https://stackoverflow.com/questions/13273806/using-the-html-label-tag-with-radio-buttons),
+using the fieldset and legend elements and this solved the problem. I ran the code through the validator again and the result showed that
+the HTML code was validated with no issues found in the final code.
 
 - W3C CSS Validator#
 Parse Error on 32 items related to CSS Variable values. I asked my mentor if this was an issue and after some research found that this was not an issue.

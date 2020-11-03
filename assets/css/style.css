@@ -150,7 +150,7 @@ nav.navbar.navbar-expand-lg.navbar-light.fixed-top{
     margin-bottom: 0;
 }
 
-.jumbotron h1 {
+.jumbotron h2 {
     color: #f6fbf8;
     font-family: "Lato", sans-serif;
     font-size: 2.25rem;
@@ -430,6 +430,10 @@ nav.navbar.navbar-expand-lg.navbar-light.fixed-top{
     font-weight: bold;
 }
 
+legend{
+    font-size: 1rem;
+}
+
 .radio-inline{
     padding: 5px;
 }
@@ -618,6 +622,14 @@ footer {
 
 .jumbotron {
      padding:0;
+}
+
+.about-us-box-text h2,
+.team-heading,
+.service-heading,
+.test-header,
+.contact-heading {
+    letter-spacing: 0;
 }
 
 .footer-icons{
