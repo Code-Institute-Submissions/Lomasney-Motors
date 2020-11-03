@@ -58,7 +58,7 @@ h4 {
 }
 
 .col-md-6 {
-    padding: 5px;
+    padding: 2px;
 }
 
 /******Navbar*******/
@@ -534,8 +534,9 @@ form {
 }
 
 .company-info img {
-    width:90vw;
+    width:85vw;
     height: auto;
+    padding-bottom: 5px;
 }
 
 /****Footer****/
@@ -548,6 +549,11 @@ footer {
     -webkit-box-shadow: 0 -.5rem .5em rgba(0, 0, 0, .2);
     box-shadow: 0 -.5rem .5em rgba(0, 0, 0, .2);
     z-index: 1;
+}
+
+footer.container-fluid{
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .uppercase {
@@ -662,7 +668,7 @@ footer {
 }
 
 .company-info img {
-    width: 45vw;
+    width: 40vw;
     height: auto;
 }
 
@@ -683,7 +689,7 @@ footer {
 @media (min-width: 992px) {
     
 .company-info img {
-    width:25vw;
+    width:35vw;
     height: auto;
 }
 
@@ -703,6 +709,5 @@ footer {
 form{
     padding-left: 10px;
 }
-
 }
 
