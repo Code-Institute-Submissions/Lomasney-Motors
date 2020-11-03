@@ -613,7 +613,7 @@ footer {
 
 @media (min-width:320px){
 #navbarLogo a {
-    font-size:1.1rem;
+    font-size:1.3rem;
 }
 
 .jumbotron {
@@ -636,6 +636,10 @@ footer {
 /* Medium devices (tablets, 768px and up) */
 
 @media screen and (min-width: 768px) { 
+
+#navbarLogo a {
+    font-size:1.4rem;
+}
 
 .company-info img {
     width: 45vw;
