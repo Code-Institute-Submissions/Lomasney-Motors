@@ -22,7 +22,7 @@
 }
 
 :root {
-    --light: #f6fbf8;
+    --light: #e8f2e6;
 }
 
 body {
@@ -64,7 +64,7 @@ h4 {
 /******Navbar*******/
 
 .navbar {
-    background-color:#f6fbf8;
+    background-color:#e8f2e6;
     font-family: "Lato",sans-serif;
     font-size: 1.1rem;
     font-weight: 900;
@@ -542,7 +542,7 @@ form {
 /****Footer****/
 
 footer {
-    background-color: rgb(251, 246, 248);
+    background-color: rgb(212, 226, 209);
     color: #113822;
     min-height:50px;
     bottom: 0;
