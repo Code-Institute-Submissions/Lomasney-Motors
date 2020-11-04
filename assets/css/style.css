@@ -506,6 +506,7 @@ form {
     background-color: #2b6247;
     border-color: #e8f2e6;
     font-size: 1.3rem;
+    margin-bottom: 10px;
 }
 
 .btn-success:hover {
