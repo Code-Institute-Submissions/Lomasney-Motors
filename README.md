@@ -235,8 +235,8 @@ using the fieldset and legend elements and this solved the problem. I ran the co
 the HTML code was validated with no issues found in the final code.
 
 - W3C CSS Validator#
-Parse Error on 32 items related to CSS Variable values. I asked my mentor if this was an issue and after some research found that this was not an issue.
-Unknown vendor extension errors on 41 items, I ask my mentor about this and he advised me that it is not an issue.
+Parse Error on 32 items related to CSS Variable values from the autoprefixer used. I asked my mentor if this was an issue and after some research found that this was not an issue.
+Unknown vendor extension errors on 41 items from the autoprefixer used, I ask my mentor about this and he advised me that it is not an issue.
 
 **Tests Carried Out**
 

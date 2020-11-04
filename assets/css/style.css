@@ -225,8 +225,8 @@ nav.navbar.navbar-expand-lg.navbar-light.fixed-top{
 }
 
 .about-container {
-    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
-    -webkit-box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
+    box-shadow: 0 .5rem .5rem rgba(255, 255, 255, 0.884);
+    -webkit-box-shadow: 0 .5rem .5rem rgba(255, 255, 255, .884);
     background: rgba(232, 242, 230, 0.849);
 }
 
@@ -235,10 +235,10 @@ nav.navbar.navbar-expand-lg.navbar-light.fixed-top{
 .team-container {
     -ms-flex-line-pack: center;
     align-content: center;
-    -webkit-box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
-    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
+    -webkit-box-shadow: 0 .5rem .5rem rgba(255, 255, 255, .884);
+    box-shadow: 0 .5rem .5rem rgba(255, 255, 255, .884);
     position: relative;
-    background: rgba(232, 242, 230, 0.753);
+    background: rgba(232, 242, 230, 0.849);
 }
 
 .team-heading {
@@ -314,8 +314,8 @@ nav.navbar.navbar-expand-lg.navbar-light.fixed-top{
     background:-o-linear-gradient(rgba(232, 242, 230, 0.849),rgba(3, 55, 23, 0.6));
     background: -webkit-gradient (linear,left top, left bottom,from(rgba(232, 242, 230, 0.849)),to(rgba(3, 55, 23, 0.6)));
     background: linear-gradient(rgba(232, 242, 230, 0.849),rgba(3, 55, 23, 0.6));
-    -webkit-box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
-    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
+    -webkit-box-shadow: 0 .5rem .5rem rgba(255, 255, 255, .884);
+    box-shadow: 0 .5rem .5rem rgba(255, 255, 255, .884);
     padding: 5px;
     position: relative;
     text-align: center;
@@ -369,8 +369,8 @@ nav.navbar.navbar-expand-lg.navbar-light.fixed-top{
     background:-o-linear-gradient(rgba(232, 242, 230, 0.849),rgba(3, 55, 23, 0.6));
     background: -webkit-gradient (linear,left top, left bottom,from(rgba(232, 242, 230, 0.849)),to(rgba(3, 55, 23, 0.6)));
     background: linear-gradient(rgba(232, 242, 230, 0.849),rgba(3, 55, 23, 0.6));
-    -webkit-box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
-    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
+    -webkit-box-shadow: 0 .5rem .5rem rgba(255, 255, 255, .884);
+    box-shadow: 0 .5rem .5rem rgba(255, 255, 255, .884);
     color: #113822;
     padding: 10px;
     text-align: center;
@@ -546,8 +546,8 @@ footer {
     color: #113822;
     min-height:50px;
     bottom: 0;
-    -webkit-box-shadow: 0 -.5rem .5em rgba(0, 0, 0, .2);
-    box-shadow: 0 -.5rem .5em rgba(0, 0, 0, .2);
+    -webkit-box-shadow: 0 -.5rem .5em rgba(255, 255, 255, .884);
+    box-shadow: 0 -.5rem .5em rgba(255, 255, 255, .884);
     z-index: 1;
 }
 
