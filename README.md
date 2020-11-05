@@ -228,131 +228,132 @@ The project used this as a built in feature of Bootstrap, used for the modal fea
 ## **Testing**
 ---
 **Validation**
-- W3C HTML Markup Validator 
-When I first ran this validation test there was an issue with the label for the radio buttons on the modal in the testimonials section, 
+**_W3C HTML Markup Validator_**
+- When I first ran this validation test there was an issue with the label for the radio buttons on the modal in the testimonials section, 
 I did some research to solve this issue and found a solution on [StackOverflow](https://stackoverflow.com/questions/13273806/using-the-html-label-tag-with-radio-buttons),
 using the fieldset and legend elements and this solved the problem. I ran the code through the validator again and the result showed that
 the HTML code was validated with no issues found in the final code.
 
-- W3C CSS Validator#
-Parse Error on 32 items related to CSS Variable values from the autoprefixer used. I asked my mentor if this was an issue and after some research found that this was not an issue.
+**_W3C CSS Validator_**
+- Parse Error on 32 items related to CSS Variable values from the autoprefixer used. I asked my mentor if this was an issue and after some research found that this was not an issue.
 Unknown vendor extension errors on 41 items from the autoprefixer used, I ask my mentor about this and he advised me that it is not an issue.
 
 **Tests Carried Out**
 
 **User Story Tests**
-* _As the owner I would like to provide basic services information_
-_As a new user, I would like to know what services they offer_
-The website provides a section for the main services provided by the company, this will allow users to see the services on offer, and also solve the
+**_As the owner I would like to provide basic services information/_**
+**_As a new user, I would like to know what services they offer_**
+- The website provides a section for the main services provided by the company, this will allow users to see the services on offer, and also solve the
 company's request that users would be given information on the services they provide.
 
-* _As a new user I would like to see customer reviews of the service_
-This objective was achieved by including a testimonial carousel slider, showing customer reviews and thoughts on the service they received. It also allows the user 
+ **_As a new user I would like to see customer reviews of the service_**
+- This objective was achieved by including a testimonial carousel slider, showing customer reviews and thoughts on the service they received. It also allows the user 
 to create their own review if they wish to do so.
 
-* _As a new user, I would like to see where they are located as I am new to the area and need to have this service close to where I live._
-This objective was achieved by including a simple style map on the contact section, and also providing a link in the footer to google maps, giving an exact 
+**_As a new user, I would like to see where they are located as I am new to the area and need to have this service close to where I live._**
+- This objective was achieved by including a simple style map on the contact section, and also providing a link in the footer to google maps, giving an exact 
 location of Lomasney Motors. Users can open this link to get directions to the premises. This link opens in a new tab so the user will not have to use the back button on the web browser.
 
-* _As a potential user, I would like to be able to contact the business online as I have a very busy schedule_
-The website includes a contact form in the contact section, that allows users to communicate via email with the company. I have also placed a call to action button on the homepage,
+**_As a potential user, I would like to be able to contact the business online as I have a very busy schedule_**
+- The website includes a contact form in the contact section, that allows users to communicate via email with the company. I have also placed a call to action button on the homepage,
 'Request a Quote' that links directly to the contact section. The navigation bar also includes a link to this section and once clicked will scroll to the contact form available.
 
 **Navigation Bar**
-- Navigation links
-All navigation links when clicked should scroll directly to the section targeted.
+
+_Navigation links_
+- All navigation links when clicked should scroll directly to the section targeted.
 The test was successful and all links are working correctly and scroll to the appropriate section.
 
-- _Navigation bar responsiveness_
-Verify responsiveness of navigation bar using Chrome DevTools to check if it worked across all devices.
+_Navigation bar responsiveness_
+- Verify responsiveness of navigation bar using Chrome DevTools to check if it worked across all devices.
 Navigation bar was responsive across all device and collapsed into hamburger menu in tablet and mobile devices.
 
-- Navigation Logo link
-This link should direct the user back to the homepage.
+_Navigation Logo link_
+- This link should direct the user back to the homepage.
 As the navigation bar is fixed, the user should be able to retreat to the homepage at any point.
 The test was successful and the navigation logo reverts the user to the homepage when it is clicked.
 
-- Hamburger menu closing after link has been selected.
-The hamburger menu on mobile and tablet devices should automatically close once the link chosen has been selected.
+_Hamburger menu closing after link has been selected._
+- The hamburger menu on mobile and tablet devices should automatically close once the link chosen has been selected.
 The first test I discovered an issue, where the hamburger menu was opening but not closing once link was selected.
 After some research I found a code snippet to solve this problem on [StackOverflow](https://stackoverflow.com/questions/36405991/bootstrap-toggle-menu-on-one-page-site-does-not-uncollapse-when-clicked),
 by Orel Eliyahu. I ran the test again after using the code snippet, and the test result showed that once a menu link has been selected the hamburger menu will close automatically on selection.
 
 **Homepage**
-- _Hero Image Responsiveness_
-The hero image and jumbotron should be responsive and scale down to fit all devices.
+_Hero Image Responsiveness_
+- The hero image and jumbotron should be responsive and scale down to fit all devices.
 I ran a test for this using DevTools on Google Chrome, to show how the site looks on different devices. I
 expanded and reduced the screen size to make sure the image fits the full width of the screen on all devices.
 The image and jumbotron are responsive on all devices.
 
-- Request a Quote: Call to action
-Check to see if the call to action button 'Request a Quote' links to the contact section when clicked.
+_Request a Quote: Call to action_
+- Check to see if the call to action button 'Request a Quote' links to the contact section when clicked.
 The button takes the user directly to the contact section as intended, this test was a success.
 
 **About Section**
-- _Responsiveness of image_
-The about image should be responsive and appear on right-hand side of 'about' text in larger screens, and
+ _Responsiveness of image_
+- The about image should be responsive and appear on right-hand side of 'about' text in larger screens, and
 appear underneath 'about' text in both tablet and mobile devices. This test was successful and the image is responsive.
 
 **Meet the Team Section**
-- _Card Responsiveness_
-In this section the cards should align side by side in larger screens and tablet devices, and on mobile devices should 
+ _Card Responsiveness_
+- In this section the cards should align side by side in larger screens and tablet devices, and on mobile devices should 
 align one after the other in a block element format. This test was succesful and the card are responsive and align as expected.
 
 **Services Section**
-- _Image Responsiveness_
-The services section should have 3 columns with the images aligned side by side in larger screens and tablet devices, and
+ _Image Responsiveness_
+- The services section should have 3 columns with the images aligned side by side in larger screens and tablet devices, and
 on mobile devices, should align in 1 column block elements displayed one after the other. This test was successful and images responded 
 as desired.
 
 **Testimonials Section**
-- _Modal Dialog Box: 'Leave a Review'_
-The button in the testimonials section 'Leave a Review', when clicked, should open a modal dialog box for the user,
+_Modal Dialog Box: 'Leave a Review'_
+- The button in the testimonials section 'Leave a Review', when clicked, should open a modal dialog box for the user,
 to allow the user to fill in a review form to submit.
 The button does as intended and no issues were found.
 
-- _Radio Button Functionality on modal dialog box_
-Tested the radio buttons to make sure only one option could be selected, no issues were found,
+_Radio Button Functionality on modal dialog box_
+- Tested the radio buttons to make sure only one option could be selected, no issues were found,
 buttons worked as expected, only one button can be selected.
 
 **Contact Section**
-- _Contact Form Validity - required fields_
-If you try to submit the form with only one of the fields complete, an error will occur
+_Contact Form Validity - required fields_
+- If you try to submit the form with only one of the fields complete, an error will occur
 and prompt you to populate all the other required fields before the user can submit the form.
 The form cannot be submitted without the required fields populated.
 
-- _Contact Form Email Validity - email valid_
-If you try to input a name into the email field instead of an email address.
+_Contact Form Email Validity - email valid_
+- If you try to input a name into the email field instead of an email address.
 An error will occur and state this is not a valid email address.
 
-- _Background Image Cover_
-I had chosen to insert a background image for the contact section that should cover the entire section, however
+_Background Image Cover_
+- I had chosen to insert a background image for the contact section that should cover the entire section, however
 once I tested the background image once content had been added, I discovered an issue. It was only covering half 
 of the container. I did some research and found a CSS code snippet on [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/)
 and in doing so was able to solve the issue by adjusting the width and height. I ran the test again and the background image
 now covers the full contact section.
 
 **Footer**
-- _Footer links - Directions & Facebook_
-All links should open in a new tab as the have the attribute target="_blank"
+_Footer links - Directions & Facebook_
+- All links should open in a new tab as the have the attribute target="_blank"
 All links were tested and do open in a new tab anytime they are clicked.
 
-- Footer Link - Phone number
-This link should prompt the user to make a call to the phone number provided.
+_Footer Link - Phone number_
+- This link should prompt the user to make a call to the phone number provided.
 The test carried out was successful and the link will prompt the user to make a call, if they wish.
 
 **General**
-- _Check alt text appears for all images_
-Hover over images to see if there is clear alt text visible.
+_Check alt text appears for all images_
+- Hover over images to see if there is clear alt text visible.
 All images were tested and alt text appears on images.
 
-- _Button Hover Function: darker colour_
-When any of the buttons on the site including the 'Request a Quote' on the homepage, 'Leave a Review' on the testimonials section,
+_Button Hover Function: darker colour_
+- When any of the buttons on the site including the 'Request a Quote' on the homepage, 'Leave a Review' on the testimonials section,
 'Send' button on the contact form, they should all change to a deeper colour when the mouse hovers over them.
 All buttons function as expected and no issues were found.
 
-- Conducted spell check on README file and text used in 'About' section and 'Meet the Team' sections,
-all spelling errors were corrected.
+_Conducted spell check on README file and text used in 'About' section and 'Meet the Team' sections._
+- All spelling errors were corrected.
 
 - Ran code through Autoprefixer and copied code back into css file.
 
